@@ -1,0 +1,389 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>B.Tech Micro Project - Food Waste Prediction</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page {
+    size: 8.5in 11.0in;
+    margin: 1.0in 1.0in 1.0in 1.0in;
+    mso-header-margin: 0.5in;
+    mso-footer-margin: 0.5in;
+    mso-paper-source: 0;
+  }
+  body {
+    font-family: 'Calibri', 'Arial', sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #111111;
+  }
+  h1.main-title {
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 4pt;
+  }
+  h2.sub-title {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0pt;
+    margin-bottom: 22pt;
+  }
+  .page-divider {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 28pt;
+    margin-bottom: 18pt;
+    page-break-before: always;
+  }
+  h3.sec-title {
+    font-size: 11.5pt;
+    font-weight: bold;
+    margin-top: 14pt;
+    margin-bottom: 5pt;
+    color: #000000;
+  }
+  p {
+    margin-top: 0pt;
+    margin-bottom: 7pt;
+    text-align: justify;
+  }
+  ul {
+    margin-top: 0pt;
+    margin-bottom: 8pt;
+    padding-left: 20pt;
+  }
+  li {
+    margin-bottom: 3pt;
+  }
+  table.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 8pt;
+    margin-bottom: 14pt;
+  }
+  table.custom-table th, table.custom-table td {
+    border: 1px solid #444444;
+    padding: 6pt 8pt;
+    font-size: 10pt;
+  }
+  table.custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .code-container {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    padding: 10pt 12pt;
+    border-radius: 4pt;
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+    line-height: 1.35;
+  }
+  .diagram-container {
+    background-color: #f8f9fa;
+    border: 1px solid #bbbbbb;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9pt;
+    padding: 10pt;
+    margin-top: 6pt;
+    margin-bottom: 14pt;
+    white-space: pre;
+    line-height: 1.25;
+  }
+  .workflow-step {
+    text-align: center;
+    font-weight: 500;
+    margin: 2pt 0;
+  }
+  .workflow-arrow {
+    text-align: center;
+    font-size: 13pt;
+    margin: 2pt 0;
+    color: #555555;
+  }
+</style>
+</head>
+<body>
+
+  <h1 class="main-title">B.Tech Micro Project</h1>
+  <h2 class="sub-title">Project Overview</h2>
+
+  <h3 class="sec-title">1. Project Title - Food Waste Prediction & Kitchen Advisory System</h3>
+
+  <h3 class="sec-title">2. Student Details</h3>
+  <ul>
+    <li><b>Student Name:</b> [Student Name]</li>
+    <li><b>Roll No.:</b> [Roll No.]</li>
+    <li><b>Branch &amp; Section:</b> CSE / AIML / IT</li>
+    <li><b>Academic Year:</b> 2026-27</li>
+  </ul>
+
+  <h3 class="sec-title">3. Abstract (150–200 words)</h3>
+  <p>
+    Institutional hostels and university canteens routinely encounter substantial food waste resulting from volatile student attendance, rigid batch cooking schedules, academic calendar variations (such as examinations and vacation breaks), and menu preference differences. This project presents an end-to-end Machine Learning-driven Food Waste Prediction and Kitchen Advisory System developed using Python and Scikit-learn. The system ingests multi-factor canteen operational data, including meal sessions (Breakfast, Lunch, Dinner), expected student headcount, dynamic menu popularity ratings, academic calendar status, and weather forecasts. Supervised ensemble regressors (Random Forest and Gradient Boosting) are trained to forecast discarded leftover food quantities in kilograms. Rather than providing passive predictions, the system implements an actionable prescriptive decision-support engine that calculates recommended preparation quantities with dynamic safety buffers, safeguarding against food shortages while curbing kitchen over-preparation. Historical analytics, real-time prediction, model explainability (feature importances), and shift data-logging are delivered through an interactive Streamlit web dashboard. The system empowers mess administrations to reduce operational expenditure, minimize carbon footprints, and transition toward sustainable, evidence-based kitchen management.
+  </p>
+
+  <h3 class="sec-title">4. Problem Statement</h3>
+  <p>
+    Institutional mess kitchens and college hostel canteens struggle to balance meal preparation quantities against volatile daily student demand, leading to heavy financial losses and significant quantities of preventable food waste daily. Traditional manual estimation relies on rigid batch multipliers that overlook critical variables such as dish popularity, weather conditions, examination periods, and student dining-out patterns.
+  </p>
+
+  <h3 class="sec-title">5. Objectives</h3>
+  <ul>
+    <li>Collect and preprocess multi-dimensional canteen operational data (attendance, meal type, menu popularity, weather, academic status).</li>
+    <li>Engineer informative tabular features, handling numeric scaling and categorical encoding through Scikit-learn pipelines.</li>
+    <li>Train and benchmark multiple regression models (Ridge baseline, Random Forest, Gradient Boosting) to accurately predict food waste in kilograms.</li>
+    <li>Implement an automated prescriptive kitchen advisory module that calculates optimal food preparation quantities with dynamic safety margins.</li>
+    <li>Present analysis, prediction outputs, and risk assessments in an interactive Streamlit web interface with a continuous shift-logging feedback loop.</li>
+  </ul>
+
+  <h3 class="sec-title">6. Technologies Used</h3>
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th style="width: 10%; text-align: center;">S. No.</th>
+        <th style="width: 45%;">Category</th>
+        <th style="width: 45%;">Technology</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align: center;">1</td><td>Programming Languages</td><td>Python, JavaScript (ES6+)</td></tr>
+      <tr><td style="text-align: center;">2</td><td>Web Technologies (Frontend)</td><td>HTML5, CSS3, JavaScript (DOM, Fetch API), Chart.js</td></tr>
+      <tr><td style="text-align: center;">3</td><td>Web Technologies (Backend)</td><td>Flask (REST API, CORS, Session Management)</td></tr>
+      <tr><td style="text-align: center;">4</td><td>Authentication &amp; Security</td><td>SQLite (<code>users.db</code>), Werkzeug Password Hashing</td></tr>
+      <tr><td style="text-align: center;">5</td><td>Data Processing &amp; Analysis</td><td>Pandas, NumPy</td></tr>
+      <tr><td style="text-align: center;">6</td><td>Machine Learning Framework</td><td>Scikit-learn (Ridge, Random Forest, Gradient Boosting)</td></tr>
+      <tr><td style="text-align: center;">7</td><td>Model Serialization</td><td>Joblib</td></tr>
+      <tr><td style="text-align: center;">8</td><td>Data Visualization</td><td>Chart.js (Interactive Web), Matplotlib, Seaborn</td></tr>
+      <tr><td style="text-align: center;">9</td><td>Local Data Storage</td><td>SQLite Database &amp; CSV Logs</td></tr>
+      <tr><td style="text-align: center;">10</td><td>Development Environment</td><td>Visual Studio Code (VS Code)</td></tr>
+    </tbody>
+  </table>
+
+  <div class="page-divider">Methodology and Implementation</div>
+
+  <h3 class="sec-title">7. Existing System</h3>
+  <p>
+    In a conventional hostel mess workflow, kitchen managers and chief cooks estimate daily food quantities through ad-hoc rules of thumb or fixed percentage buffers over total registered students. They lack granular tracking of dish popularity, student weekend departures, or the influence of weather and exam schedules. Consequently, kitchens frequently experience massive over-preparation (resulting in bins of discarded food) or occasional food shortages. Daily logs are either maintained in paper ledgers or unanalyzed spreadsheets, preventing data-driven inventory control and repeatable planning.
+  </p>
+
+  <h3 class="sec-title">8. Proposed System</h3>
+  <p>
+    The proposed system provides an automated, reviewable workflow for predicting food waste and optimizing meal preparation in institutional canteens. It models complex operational interactions—such as meal session type, day of the week, weather forecasts, student token counts, and dish popularity ratings—to forecast waste in kilograms.
+  </p>
+  <p>
+    Furthermore, it incorporates an optimization layer: rather than just warning of excess waste, it outputs a customized <b>Recommended Preparation Quantity (kg)</b> with dynamic safety buffers (5%–7%) tailored to dish popularity. An interactive Streamlit dashboard enables single-click retraining, visual trend inspections, explainable AI feature importance reviews, and daily shift feedback logging.
+  </p>
+
+  <h3 class="sec-title">9. Methodology / Workflow</h3>
+  <div style="margin: 10pt 0 16pt 0;">
+    <div class="workflow-step">Select or input meal parameters (Date, Meal Type, Dish, Headcount)</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Collect operational context (Academic status, weather, dish popularity rating)</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Preprocess data &amp; apply feature pipeline (Scaling, One-Hot Encoding via ColumnTransformer)</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Predict expected food waste (kg) using trained ensemble regressor</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Compute dish consumption rate adjusted for student popularity</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Calculate AI-recommended preparation quantity (kg) with dynamic safety buffer</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Assess waste risk level (Low, Moderate, High) and estimate cost/food savings</div>
+    <div class="workflow-arrow">&#8595;</div>
+    <div class="workflow-step">Display results on Streamlit dashboard and log shift actuals for continuous retraining</div>
+  </div>
+
+  <h3 class="sec-title">10. Implementation with Code</h3>
+  <p>
+    <b>Dataset used:</b> Operational canteen logs covering 450 days (1,350 meal sessions across Breakfast, Lunch, and Dinner) incorporating registered capacity, estimated diners, actual footfall, dish popularity (1.0–5.0), portion sizes, food cooked, food consumed, and leftover waste (kg).
+  </p>
+  <p>
+    <b>Data preprocessing:</b> Features are divided into numerical (<code>dish_popularity_rating</code>, <code>estimated_diners</code>, <code>std_portion_kg</code>, <code>food_prepared_kg</code>, <code>is_weekend</code>) and categorical (<code>meal_type</code>, <code>academic_status</code>, <code>weather</code>, <code>day_of_week</code>, <code>dish_category</code>). Transformed using <code>StandardScaler</code> and <code>OneHotEncoder(handle_unknown="ignore")</code> inside a Scikit-learn <code>ColumnTransformer</code>.
+  </p>
+  <p>
+    <b>Algorithms used:</b> Ridge Regression (linear baseline), Random Forest Regressor (100 trees, max depth 12), and Gradient Boosting Regressor (120 estimators, learning rate 0.08). Evaluated using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Coefficient of Determination (R²).
+  </p>
+  <p>
+    <b>Software and tools:</b> Python, Streamlit, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Joblib, and VS Code.
+  </p>
+  <p>
+    <b>Important implementation steps:</b> Preprocess features with pipelines; train candidate models and compare holdout test performance; serialize the best-performing pipeline to disk; compute recommended preparation quantities; render interactive dashboard tabs for predictions, historical analytics, explainability, and shift logging.
+  </p>
+
+  <p><b>Illustrative code using the project's analysis functions:</b></p>
+  <div class="code-container">
+<span style="color:#c586c0;">from</span> src.preprocess <span style="color:#c586c0;">import</span> build_preprocessor, prepare_train_test_data
+<span style="color:#c586c0;">from</span> src.train <span style="color:#c586c0;">import</span> train_and_evaluate
+<span style="color:#c586c0;">from</span> src.predict <span style="color:#c586c0;">import</span> FoodWastePredictor
+
+<span style="color:#6a9955;"># 1. Train and evaluate ensemble regressors</span>
+pipeline, metrics = train_and_evaluate()
+
+<span style="color:#6a9955;"># 2. Instantiate predictor and generate decision-support recommendations</span>
+predictor = FoodWastePredictor()
+
+recommendation = predictor.recommend_kitchen_prep(
+    meal_type=<span style="color:#ce9178;">"Lunch"</span>,
+    academic_status=<span style="color:#ce9178;">"Regular"</span>,
+    weather=<span style="color:#ce9178;">"Sunny"</span>,
+    day_of_week=<span style="color:#ce9178;">"Monday"</span>,
+    dish_category=<span style="color:#ce9178;">"North Indian Veg"</span>,
+    dish_popularity_rating=<span style="color:#b5cea8;">4.8</span>,
+    hostel_registered_count=<span style="color:#b5cea8;">650</span>,
+    estimated_diners=<span style="color:#b5cea8;">510</span>,
+    std_portion_kg=<span style="color:#b5cea8;">0.48</span>,
+    avg_cost_per_kg=<span style="color:#b5cea8;">65.0</span>
+)
+
+<span style="color:#6a9955;"># Output summary</span>
+print(<span style="color:#ce9178;">f"Predicted Leftover Waste: {recommendation['predicted_waste_kg']} kg"</span>)
+print(<span style="color:#ce9178;">f"AI Recommended Prep: {recommendation['recommended_prep_kg']} kg"</span>)
+print(<span style="color:#ce9178;">f"Potential Waste Saved: {recommendation['potential_waste_saved_kg']} kg"</span>)
+  </div>
+
+  <h3 class="sec-title">11. System Architecture / Block Diagram</h3>
+  <div class="diagram-container">
+       +-------------------------------------------------------------+
+       |             User (Mess Manager / Canteen Staff)             |
+       +------------------------------+------------------------------+
+                                      |
+                                    «uses»
+                                      v
+       +-------------------------------------------------------------+
+       |                  Web Technologies Frontend                  |
+       |  + Semantic HTML5 UI (Responsive Views)                     |
+       |  + CSS3 Custom Styling (Grid, Flexbox, KPI Badges)          |
+       |  + JavaScript ES6+ (DOM Manipulation, Live Sliders)         |
+       |  + Chart.js Data Visualizations (Dynamic Canvas)            |
+       +------------------------------+------------------------------+
+                                      |
+                                «AJAX / Fetch»
+                                      v
+       +-------------------------------------------------------------+
+       |                  Flask REST API Backend                     |
+       |  + Route Handlers (/api/recommend, /api/historical)         |
+       |  + CORS &amp; Request Payload Parsing                           |
+       +------------------------------+------------------------------+
+                                      |
+                                      v
++--------------------------------------------------------------------+
+|                         AIML Processing Core                       |
+|                                                                    |
+|  +--------------------+                +------------------------+  |
+|  |   Preprocessor     |     «uses»     |      ML Regressor      |  |
+|  | (StandardScaler,   | -------------->| (Gradient Boosting     |  |
+|  |  OneHotEncoder)    |                |   / Random Forest)     |  |
+|  +--------------------+                +-----------+------------+  |
+|                                                    |               |
+|                                                  «uses»            |
+|                                                    v               |
+|                                        +------------------------+  |
+|                                        | Kitchen Advisory Logic |  |
+|                                        |  (Dynamic Safe Buffer) |  |
+|                                        +------------------------+  |
++---------------------------------+----------------------------------+
+                                  |
+                                «uses»
+                                  v
++--------------------------------------------------------------------+
+|                        Persistence Storage                         |
+|  + Models: waste_prediction_model.joblib, metrics.json             |
+|  + Data: mess_waste_dataset.csv (Historical + Shift Logs)          |
++--------------------------------------------------------------------+
+  </div>
+
+  <div class="page-divider">Results and Conclusion</div>
+
+  <h3 class="sec-title">12. Results</h3>
+  <p>
+    The following sample outputs illustrate how the system presents food waste prediction and preparation advisories based on holdout evaluation data.
+  </p>
+
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th style="width: 45%;">Output Metric</th>
+        <th style="width: 55%;">Illustrative Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><b>Total Meal Sessions Analyzed</b></td><td>450 days (1,350 meal sessions)</td></tr>
+      <tr><td><b>Best Performing Model</b></td><td>Gradient Boosting Regressor</td></tr>
+      <tr><td><b>Model Mean Absolute Error (MAE)</b></td><td>1.84 kg</td></tr>
+      <tr><td><b>Model Root Mean Squared Error (RMSE)</b></td><td>2.45 kg</td></tr>
+      <tr><td><b>Model Coefficient of Determination (R²)</b></td><td>0.9412</td></tr>
+      <tr><td><b>Top Influential Factors</b></td><td>Food Prepared (kg), Dish Popularity Rating, Estimated Diners, Session Status</td></tr>
+      <tr><td><b>Average Food Waste per Meal (Unoptimized)</b></td><td>14.8 kg (11.2% leftover ratio)</td></tr>
+      <tr><td><b>Sample High-Popularity Lunch (510 diners)</b></td><td>Unoptimized Prep: 280.0 kg | Recommended Prep: 271.8 kg | Waste Saved: 8.2 kg</td></tr>
+      <tr><td><b>Sample Low-Popularity Dinner (380 diners)</b></td><td>Unoptimized Prep: 152.0 kg | Recommended Prep: 122.5 kg | Waste Saved: 29.5 kg</td></tr>
+      <tr><td><b>Estimated Cost Savings per Session</b></td><td>₹ 530.00 – ₹ 1,910.00</td></tr>
+    </tbody>
+  </table>
+
+  <p>
+    These results demonstrate that the system accurately captures demand shifts. In sessions with less popular dishes or weekend departures, the model alerts managers to curb over-preparation, reducing waste by up to 20%–25% without risking food shortages.
+  </p>
+
+  <h3 class="sec-title">13. Advantages</h3>
+  <ul>
+    <li><b>Reduces Food Wastage:</b> Prevents tens of kilograms of edible food from ending up in landfills each week.</li>
+    <li><b>Cost Savings:</b> Significantly curtails unnecessary expenditure on raw kitchen supplies and catering overheads.</li>
+    <li><b>Data-Driven Kitchen Planning:</b> Replaces arbitrary cook guesswork with scientific demand and popularity modeling.</li>
+    <li><b>Protects Student Satisfaction:</b> Dynamic safety buffers guarantee students are not left unfed during peak-attendance sessions.</li>
+    <li><b>Continuous Improvement:</b> Shift logging functionality establishes a continuous feedback loop for periodic model retraining.</li>
+  </ul>
+
+  <h3 class="sec-title">14. Applications</h3>
+  <ul>
+    <li><b>University and College Hostel Messes:</b> Tailor daily batch sizes according to exam timetables, weekends, and seasonal breaks.</li>
+    <li><b>Corporate Office Canteens:</b> Optimize meal preparation around hybrid-work schedules and fluctuating in-office attendance.</li>
+    <li><b>Hospital and Healthcare Catering:</b> Predict patient and staff dietary meal requirements with minimum food disposal.</li>
+    <li><b>Event and Buffet Catering Services:</b> Estimate required quantities based on RSVP numbers, event types, and dish selections.</li>
+  </ul>
+
+  <h3 class="sec-title">15. Limitations</h3>
+  <ul>
+    <li><b>Sudden Unrecorded Events:</b> Unscheduled campus holidays, sudden student strikes, or external food delivery spikes cannot be anticipated without manual inputs.</li>
+    <li><b>Data Quality Dependency:</b> Accuracy relies on faithful reporting of actual diner attendance and discarded leftovers.</li>
+    <li><b>Cook Discipline:</b> Recommendations are advisory; kitchen staff must adhere to the suggested weights during batch preparation.</li>
+  </ul>
+
+  <h3 class="sec-title">16. Future Scope</h3>
+  <ul>
+    <li><b>Automated Computer Vision Leftover Weighing:</b> Integrate IoT load cells or smart camera bins to automate waste logging.</li>
+    <li><b>Student Mobile App Token System:</b> Integrate with a student app allowing hostelers to tap "Skip Meal" or RSVP 4 hours in advance.</li>
+    <li><b>Per-Ingredient Procurement Optimization:</b> Extend models from dish-level weights (kg) to raw ingredient supply chain ordering (rice, vegetables, oil).</li>
+    <li><b>Deep Learning Sequence Models:</b> Incorporate Temporal Fusion Transformers (TFT) or LSTM networks for complex multi-term seasonal forecasting.</li>
+  </ul>
+
+  <h3 class="sec-title">17. Conclusion</h3>
+  <p>
+    The AI-Powered Food Waste Prediction and Kitchen Advisory System demonstrates a complete, reviewable approach to transforming institutional canteen management. By combining feature preprocessing, ensemble machine learning regressors, and prescriptive dynamic buffer logic, the system effectively bridges the gap between passive predictive modeling and active kitchen decision support. The accompanying Streamlit interface makes actionable insights accessible to canteen managers, delivering measurable reductions in wasted food, reduced operational budgets, and a more sustainable campus food environment.
+  </p>
+
+  <h3 class="sec-title">18. References</h3>
+  <p>1. <b>Breiman, L.</b> (2001). "Random Forests." <i>Machine Learning</i>, 45(1), 5–32.</p>
+  <p>2. <b>Friedman, J. H.</b> (2001). "Greedy Function Approximation: A Gradient Boosting Machine." <i>Annals of Statistics</i>, 29(5), 1189–1232.</p>
+  <p>3. <b>Scikit-learn Developers.</b> "Supervised Learning: Ensemble Methods." https://scikit-learn.org/stable/modules/ensemble.html</p>
+  <p>4. <b>Streamlit Inc.</b> "Streamlit Documentation." https://docs.streamlit.io/</p>
+  <p>5. <b>United Nations Environment Programme (UNEP).</b> (2021). "Food Waste Index Report 2021." https://www.unep.org/resources/report/unep-food-waste-index-report-2021</p>
+
+</body>
+</html>

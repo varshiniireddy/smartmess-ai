@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Waste Prediction & Kitchen Advisory System</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Chart.js for Interactive Charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">🍲</span>
+      <div class="brand-text">
+        <h1>SmartMess AI</h1>
+        <p>Food Waste Prediction &amp; Kitchen Advisory System</p>
+      </div>
+    </div>
+    <div class="nav-badges">
+      <span class="badge badge-aiml">🤖 AIML: Scikit-Learn</span>
+      <span class="badge badge-web">🌐 Web: HTML5 / CSS3 / JS</span>
+      <span class="badge badge-status" id="serverStatusBadge">● Connecting...</span>
+      
+      <!-- User Profile / Auth Area -->
+      <div class="user-auth-zone" id="userAuthZone">
+        <button id="btnOpenAuthModal" class="btn btn-outline-primary btn-sm">
+          🔐 Sign In / Register
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- Auth Gate Screen (Appears before login)     -->
+  <!-- ============================================ -->
+  <div id="authGateScreen" class="auth-gate-wrapper">
+    <div class="auth-gate-card">
+      <div class="auth-gate-banner">
+        <span class="gate-icon">🍲</span>
+        <h2>SmartMess Portal</h2>
+        <p>AI-Powered Food Waste Prediction &amp; Kitchen Management</p>
+        <div class="gate-features">
+          <span class="feat-tag">📉 Predict Waste (kg)</span>
+          <span class="feat-tag">🍳 AI Cooking Advisories</span>
+          <span class="feat-tag">🛡️ Role-Based Access</span>
+        </div>
+      </div>
+
+      <div class="auth-gate-body">
+        <!-- Auth Navigation Tabs -->
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab-btn active" id="tabBtnLogin" data-target="login">Sign In</button>
+          <button type="button" class="auth-tab-btn" id="tabBtnRegister" data-target="register">Register Account</button>
+        </div>
+
+        <!-- Sign In Form -->
+        <form id="loginForm" class="auth-form active">
+          <div class="form-group">
+            <label for="loginUsername">Username or Email</label>
+            <input type="text" id="loginUsername" class="form-control" placeholder="e.g., manager or cook" required>
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" class="form-control" placeholder="••••••••" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">🔓 Sign In to Dashboard</button>
+          
+          <div class="demo-creds-hint">
+            <small><b>Quick Demo Accounts (Click to auto-fill):</b></small>
+            <div class="demo-pill-row">
+              <button type="button" class="demo-pill" onclick="fillDemoLogin('manager', 'manager123')">
+                🛡️ Manager (manager / manager123)
+              </button>
+              <button type="button" class="demo-pill" onclick="fillDemoLogin('cook', 'cook123')">
+                👨‍🍳 Cook (cook / cook123)
+              </button>
+            </div>
+          </div>
+
+          <div id="loginAlert" class="auth-feedback"></div>
+        </form>
+
+        <!-- Register Form -->
+        <form id="registerForm" class="auth-form">
+          <div class="form-group">
+            <label for="regUsername">Choose Username</label>
+            <input type="text" id="regUsername" class="form-control" placeholder="e.g., staff_sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="regEmail">Email Address</label>
+            <input type="email" id="regEmail" class="form-control" placeholder="name@hostel.edu" required>
+          </div>
+          <div class="form-group">
+            <label for="regPassword">Password</label>
+            <input type="password" id="regPassword" class="form-control" placeholder="Minimum 6 characters" minlength="6" required>
+          </div>
+          <div class="form-group">
+            <label for="regRole">Operational Role</label>
+            <select id="regRole" class="form-control">
+              <option value="Mess Manager">🛡️ Mess Manager (Full Access &amp; Retraining)</option>
+              <option value="Kitchen Staff" selected>👨‍🍳 Kitchen Staff (Shift Logging &amp; Advisory)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">✨ Create Account &amp; Unlock</button>
+          <div id="registerAlert" class="auth-feedback"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Protected Dashboard (Hidden until login) -->
+  <div class="app-layout" id="mainDashboard" style="display: none;">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <button class="nav-tab active" data-tab="advisorTab">
+          <span class="tab-icon">🎯</span> Kitchen Meal Advisor
+        </button>
+        <button class="nav-tab" data-tab="analyticsTab">
+          <span class="tab-icon">📊</span> Historical Analytics
+        </button>
+        <button class="nav-tab" data-tab="modelTab">
+          <span class="tab-icon">🧠</span> ML Model &amp; XAI
+        </button>
+        <button class="nav-tab" data-tab="loggingTab">
+          <span class="tab-icon">📝</span> Daily Shift Logging
+        </button>
+      </nav>
+
+      <div class="sidebar-card">
+        <h3>⚡ Model Controls</h3>
+        <p>Continuous learning enables periodic retraining on updated mess logs.</p>
+        <button id="btnRetrainModel" class="btn btn-secondary btn-block">
+          🔄 Retrain ML Models
+        </button>
+        <div id="retrainStatus" class="retrain-msg"></div>
+      </div>
+
+      <div class="sidebar-footer">
+        <p>B.Tech AIML &amp; Web Technologies Project</p>
+        <small>Academic Year 2026–27</small>
+      </div>
+    </aside>
+
+    <!-- Content Workspace -->
+    <main class="main-content">
+
+      <!-- ============================================ -->
+      <!-- TAB 1: Kitchen Meal Advisor & Predictor     -->
+      <!-- ============================================ -->
+      <section id="advisorTab" class="tab-pane active">
+        <div class="pane-header">
+          <h2>🎯 Daily Kitchen Preparation &amp; Waste Advisor</h2>
+          <p>Input tomorrow's session variables to generate real-time AI cooking recommendations and waste risk warnings.</p>
+        </div>
+
+        <div class="advisor-grid">
+          <!-- Input Form Panel -->
+          <div class="card form-card">
+            <h3 class="card-title">📋 Operational Parameters</h3>
+            
+            <form id="advisorForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="mealType">Meal Session</label>
+                  <select id="mealType" class="form-control">
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch" selected>Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="menuDish">Planned Dish</label>
+                  <select id="menuDish" class="form-control"></select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="dishCategory">Dish Category</label>
+                  <input type="text" id="dishCategory" class="form-control" value="North Indian Veg" readonly>
+                </div>
+                <div class="form-group">
+                  <label for="dishPopularity">
+                    Dish Popularity: <span id="popularityVal" class="val-badge">4.8</span> / 5.0
+                  </label>
+                  <input type="range" id="dishPopularity" class="form-range" min="1.0" max="5.0" step="0.1" value="4.8">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="dayOfWeek">Day of Week</label>
+                  <select id="dayOfWeek" class="form-control">
+                    <option value="Monday" selected>Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="academicStatus">Academic Status</label>
+                  <select id="academicStatus" class="form-control">
+                    <option value="Regular" selected>Regular Session</option>
+                    <option value="Exam">Exam Season</option>
+                    <option value="Weekend">Weekend</option>
+                    <option value="Vacation">Vacation / Semester Break</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="weatherForecast">Weather Forecast</label>
+                  <select id="weatherForecast" class="form-control">
+                    <option value="Sunny" selected>Sunny</option>
+                    <option value="Rainy">Rainy</option>
+                    <option value="Overcast">Overcast</option>
+                    <option value="Cold">Cold</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="hostelCapacity">Registered Capacity</label>
+                  <input type="number" id="hostelCapacity" class="form-control" value="650" min="100" max="2500">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="estimatedDiners">Estimated Diners / Tokens</label>
+                  <input type="number" id="estimatedDiners" class="form-control" value="510" min="10" max="2500">
+                </div>
+                <div class="form-group">
+                  <label for="stdPortion">Portion Size (kg/student)</label>
+                  <input type="number" id="stdPortion" class="form-control" value="0.48" step="0.02" min="0.15" max="0.80">
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                🚀 Calculate AI Waste Prediction &amp; Optimal Prep
+              </button>
+            </form>
+          </div>
+
+          <!-- Advisory Output Panel -->
+          <div class="card results-card">
+            <h3 class="card-title">💡 Prescriptive Kitchen Advisory</h3>
+
+            <!-- Dynamic Risk Banner -->
+            <div id="riskBanner" class="alert-banner alert-green">
+              <div class="alert-icon" id="riskIcon">✅</div>
+              <div class="alert-content">
+                <h4 id="riskTitle">Optimal / Low Waste</h4>
+                <p id="riskDesc">High demand and low waste expected! Prepare the full recommended quantity.</p>
+              </div>
+            </div>
+
+            <!-- KPI Metric Cards Grid -->
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <span class="kpi-label">Unoptimized Prep</span>
+                <span class="kpi-value" id="kpiUnoptimized">280.0 kg</span>
+                <span class="kpi-sub">Traditional Method</span>
+              </div>
+              <div class="kpi-card highlight">
+                <span class="kpi-label">AI Recommended Prep</span>
+                <span class="kpi-value highlight-val" id="kpiRecommended">271.8 kg</span>
+                <span class="kpi-sub" id="kpiDeltaSaved">-8.2 kg Saved</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Predicted Leftovers</span>
+                <span class="kpi-value" id="kpiPredictedWaste">3.5 kg</span>
+                <span class="kpi-sub" id="kpiWastePct">1.3% of cooked</span>
+              </div>
+              <div class="kpi-card success">
+                <span class="kpi-label">Estimated Cost Saved</span>
+                <span class="kpi-value" id="kpiCostSaved">₹ 533.00</span>
+                <span class="kpi-sub">From Trash Bin</span>
+              </div>
+            </div>
+
+            <!-- Chart.js Visualization Canvas -->
+            <div class="chart-box">
+              <canvas id="prepComparisonChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!-- TAB 2: Historical Canteen Trends & Charts   -->
+      <!-- ============================================ -->
+      <section id="analyticsTab" class="tab-pane">
+        <div class="pane-header">
+          <h2>📊 Canteen Historical Waste Trends</h2>
+          <p>Statistical summaries and behavioral patterns extracted from multi-year canteen meal logs.</p>
+        </div>
+
+        <!-- High-level Summary Metrics -->
+        <div class="stats-ribbon">
+          <div class="stat-pill">
+            <span class="stat-num" id="statTotalMeals">1,350</span>
+            <span class="stat-text">Meals Tracked</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="statAvgWaste">14.8 kg</span>
+            <span class="stat-text">Avg Waste / Meal</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="statTotalWaste">19,980 kg</span>
+            <span class="stat-text">Total Food Leftovers</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="statAvgPct">11.2%</span>
+            <span class="stat-text">Avg Leftover Ratio</span>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <div class="card">
+            <h3 class="card-title">Waste by Meal Session</h3>
+            <div class="chart-wrapper">
+              <canvas id="mealSessionChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Waste by Day of the Week</h3>
+            <div class="chart-wrapper">
+              <canvas id="dayOfWeekChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!-- TAB 3: Model Performance & Explainability   -->
+      <!-- ============================================ -->
+      <section id="modelTab" class="tab-pane">
+        <div class="pane-header">
+          <h2>🧠 Machine Learning Model Performance &amp; XAI</h2>
+          <p>Comparison of candidate regression models and explainable feature importances.</p>
+        </div>
+
+        <div class="model-grid">
+          <div class="card">
+            <h3 class="card-title">📈 Benchmark Evaluation Table</h3>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Model Architecture</th>
+                    <th>MAE (kg)</th>
+                    <th>RMSE (kg)</th>
+                    <th>R² Score</th>
+                  </tr>
+                </thead>
+                <tbody id="metricsTableBody">
+                  <tr>
+                    <td><strong>Gradient Boosting Regressor (Best)</strong></td>
+                    <td>1.84 kg</td>
+                    <td>2.45 kg</td>
+                    <td><span class="badge badge-success">0.9412</span></td>
+                  </tr>
+                  <tr>
+                    <td>Random Forest Regressor</td>
+                    <td>2.12 kg</td>
+                    <td>2.88 kg</td>
+                    <td>0.9180</td>
+                  </tr>
+                  <tr>
+                    <td>Ridge Regression (Baseline)</td>
+                    <td>4.35 kg</td>
+                    <td>5.62 kg</td>
+                    <td>0.7450</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">🔍 Top Predictive Features (Feature Importance)</h3>
+            <div class="chart-wrapper">
+              <canvas id="featureImportanceChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!-- TAB 4: Daily Shift Data Logging             -->
+      <!-- ============================================ -->
+      <section id="loggingTab" class="tab-pane">
+        <div class="pane-header">
+          <h2>📝 Record Actual Meal Performance (Feedback Loop)</h2>
+          <p>Log kitchen closing numbers to maintain continuous model accuracy.</p>
+        </div>
+
+        <div class="card form-card-wide">
+          <form id="shiftLogForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="logDate">Date</label>
+                <input type="date" id="logDate" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="logSession">Session</label>
+                <select id="logSession" class="form-control">
+                  <option value="Breakfast">Breakfast</option>
+                  <option value="Lunch" selected>Lunch</option>
+                  <option value="Dinner">Dinner</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="logHeadcount">Actual Diners Attended</label>
+                <input type="number" id="logHeadcount" class="form-control" value="480" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="logPreparedKg">Food Prepared (kg)</label>
+                <input type="number" id="logPreparedKg" class="form-control" step="0.5" value="240.0" required>
+              </div>
+              <div class="form-group">
+                <label for="logWasteKg">Actual Leftover Discarded (kg)</label>
+                <input type="number" id="logWasteKg" class="form-control" step="0.5" value="12.0" required>
+              </div>
+              <div class="form-group">
+                <label for="logNotes">Operational Notes</label>
+                <input type="text" id="logNotes" class="form-control" placeholder="e.g., Heavy rain, festival break">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">💾 Save Shift Log Record</button>
+            <div id="logFeedback" class="retrain-msg"></div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- JavaScript Application Script -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

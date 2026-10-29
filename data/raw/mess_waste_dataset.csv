@@ -1,0 +1,1351 @@
+date,day_of_week,is_weekend,academic_status,weather,meal_type,menu_item,dish_category,dish_popularity_rating,hostel_registered_count,estimated_diners,actual_attendance,std_portion_kg,food_prepared_kg,food_consumed_kg,food_waste_kg,waste_percentage
+2024-01-01,Monday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,455,444,0.35,183.4,175.7,7.7,4.2
+2024-01-01,Monday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,513,499,0.45,249.75,246.36,3.39,1.36
+2024-01-01,Monday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,520,522,0.4,228.4,221.95,6.45,2.82
+2024-01-02,Tuesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,413,425,0.25,111.5,110.11,1.39,1.25
+2024-01-02,Tuesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,436,425,0.38,182.4,162.12,20.28,11.12
+2024-01-02,Tuesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,496,484,0.45,248.85,243.2,5.65,2.27
+2024-01-03,Wednesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,459,456,0.38,189.62,189.62,0.0,0.0
+2024-01-03,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,466,473,0.44,222.64,222.64,0.0,0.0
+2024-01-03,Wednesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,494,481,0.48,276.0,266.43,9.57,3.47
+2024-01-04,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,397,393,0.22,97.24,85.79,11.45,11.77
+2024-01-04,Thursday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,495,485,0.45,252.45,239.79,12.66,5.01
+2024-01-04,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,493,498,0.42,237.72,223.21,14.51,6.1
+2024-01-05,Friday,0,Regular,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,426,412,0.3,148.2,135.47,12.73,8.59
+2024-01-05,Friday,0,Regular,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,457,460,0.45,239.85,228.3,11.55,4.82
+2024-01-05,Friday,0,Regular,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,472,477,0.39,207.09,185.64,21.45,10.36
+2024-01-06,Saturday,1,Weekend,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,299,297,0.35,122.15,115.8,6.35,5.2
+2024-01-06,Saturday,1,Weekend,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,385,374,0.46,200.1,181.24,18.86,9.43
+2024-01-06,Saturday,1,Weekend,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,309,298,0.45,158.85,153.35,5.5,3.46
+2024-01-07,Sunday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,254,253,0.38,109.06,109.06,0.0,0.0
+2024-01-07,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,351,339,0.48,193.44,185.54,7.9,4.08
+2024-01-07,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,233,228,0.35,88.9,79.97,8.93,10.04
+2024-01-08,Monday,0,Regular,Cold,Breakfast,Masala Dosa,South Indian,4.8,650,451,452,0.33,171.93,169.81,2.12,1.23
+2024-01-08,Monday,0,Regular,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,523,517,0.45,273.6,259.28,14.32,5.23
+2024-01-08,Monday,0,Regular,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,492,501,0.47,253.33,253.33,0.0,0.0
+2024-01-09,Tuesday,0,Regular,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,439,424,0.25,119.75,107.04,12.71,10.61
+2024-01-09,Tuesday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,472,464,0.42,231.42,208.29,23.13,9.99
+2024-01-09,Tuesday,0,Regular,Cold,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,581,592,0.45,283.95,283.95,0.0,0.0
+2024-01-10,Wednesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,531,521,0.38,223.06,223.06,0.0,0.0
+2024-01-10,Wednesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,505,507,0.38,221.54,192.54,29.0,13.09
+2024-01-10,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,486,492,0.39,216.84,193.47,23.37,10.78
+2024-01-11,Thursday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,417,402,0.28,132.72,120.19,12.53,9.44
+2024-01-11,Thursday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,439,446,0.46,230.46,217.83,12.63,5.48
+2024-01-11,Thursday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,560,547,0.45,284.85,273.89,10.96,3.85
+2024-01-12,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,512,515,0.33,192.06,190.78,1.28,0.67
+2024-01-12,Friday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,532,523,0.52,301.08,301.08,0.0,0.0
+2024-01-12,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,475,474,0.35,193.9,162.46,31.44,16.21
+2024-01-13,Saturday,1,Weekend,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,304,299,0.3,105.6,96.75,8.85,8.38
+2024-01-13,Saturday,1,Weekend,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,384,383,0.46,193.2,186.58,6.62,3.43
+2024-01-13,Saturday,1,Weekend,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,285,272,0.42,134.4,126.31,8.09,6.02
+2024-01-14,Sunday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,252,239,0.25,73.75,62.08,11.67,15.82
+2024-01-14,Sunday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,347,347,0.5,191.0,191.0,0.0,0.0
+2024-01-14,Sunday,1,Weekend,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,226,211,0.45,119.7,105.58,14.12,11.8
+2024-01-15,Monday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,510,518,0.38,228.38,223.48,4.9,2.15
+2024-01-15,Monday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,496,490,0.52,283.92,283.92,0.0,0.0
+2024-01-15,Monday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,508,516,0.39,219.96,198.22,21.74,9.88
+2024-01-16,Tuesday,0,Regular,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,398,399,0.25,108.25,99.67,8.58,7.93
+2024-01-16,Tuesday,0,Regular,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,508,500,0.45,256.05,256.05,0.0,0.0
+2024-01-16,Tuesday,0,Regular,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,477,481,0.4,206.8,197.96,8.84,4.27
+2024-01-17,Wednesday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,564,555,0.35,226.1,215.39,10.71,4.74
+2024-01-17,Wednesday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,515,521,0.42,247.38,227.45,19.93,8.06
+2024-01-17,Wednesday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,588,573,0.48,317.28,317.28,0.0,0.0
+2024-01-18,Thursday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,488,477,0.28,160.16,147.83,12.33,7.7
+2024-01-18,Thursday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,504,494,0.46,260.36,245.55,14.81,5.69
+2024-01-18,Thursday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,527,537,0.35,211.05,183.53,27.52,13.04
+2024-01-19,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,462,451,0.33,168.63,168.63,0.0,0.0
+2024-01-19,Friday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,504,508,0.5,277.0,277.0,0.0,0.0
+2024-01-19,Friday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,519,512,0.39,228.54,199.09,29.45,12.89
+2024-01-20,Saturday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,278,271,0.33,99.33,99.33,0.0,0.0
+2024-01-20,Saturday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,400,393,0.5,219.0,219.0,0.0,0.0
+2024-01-20,Saturday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,239,224,0.39,101.4,90.74,10.66,10.51
+2024-01-21,Sunday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,288,291,0.3,97.8,95.84,1.96,2.0
+2024-01-21,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,356,366,0.48,201.12,195.07,6.05,3.01
+2024-01-21,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,203,195,0.35,81.2,68.06,13.14,16.18
+2024-01-22,Monday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,454,446,0.25,132.25,116.69,15.56,11.77
+2024-01-22,Monday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,539,524,0.5,295.5,295.5,0.0,0.0
+2024-01-22,Monday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,572,582,0.48,314.88,314.88,0.0,0.0
+2024-01-23,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,424,436,0.33,151.47,151.47,0.0,0.0
+2024-01-23,Tuesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,489,488,0.46,250.7,246.31,4.39,1.75
+2024-01-23,Tuesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,487,472,0.48,267.84,255.09,12.75,4.76
+2024-01-24,Wednesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,383,388,0.22,95.26,84.74,10.52,11.04
+2024-01-24,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,497,485,0.44,255.2,224.43,30.77,12.06
+2024-01-24,Wednesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,522,515,0.4,226.0,218.32,7.68,3.4
+2024-01-25,Thursday,0,Regular,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,471,472,0.38,195.32,195.32,0.0,0.0
+2024-01-25,Thursday,0,Regular,Overcast,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,449,456,0.46,231.84,226.37,5.47,2.36
+2024-01-25,Thursday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,521,529,0.48,293.28,291.05,2.23,0.76
+2024-01-26,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,488,492,0.33,178.86,178.86,0.0,0.0
+2024-01-26,Friday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,446,452,0.42,209.58,196.7,12.88,6.15
+2024-01-26,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,465,456,0.35,182.35,164.77,17.58,9.64
+2024-01-27,Saturday,1,Weekend,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,260,257,0.25,73.75,63.48,10.27,13.93
+2024-01-27,Saturday,1,Weekend,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,342,352,0.42,163.38,155.42,7.96,4.87
+2024-01-27,Saturday,1,Weekend,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,268,274,0.42,123.9,123.9,0.0,0.0
+2024-01-28,Sunday,1,Weekend,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,307,301,0.28,97.16,92.03,5.13,5.28
+2024-01-28,Sunday,1,Weekend,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,364,373,0.44,176.44,173.09,3.35,1.9
+2024-01-28,Sunday,1,Weekend,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,278,263,0.48,144.48,144.48,0.0,0.0
+2024-01-29,Monday,0,Regular,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,473,478,0.38,204.44,204.44,0.0,0.0
+2024-01-29,Monday,0,Regular,Overcast,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,453,445,0.38,188.1,168.97,19.13,10.17
+2024-01-29,Monday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,570,558,0.48,316.32,298.68,17.64,5.58
+2024-01-30,Tuesday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,501,493,0.38,223.06,207.81,15.25,6.84
+2024-01-30,Tuesday,0,Regular,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,598,604,0.5,338.5,338.5,0.0,0.0
+2024-01-30,Tuesday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,591,590,0.35,235.9,210.46,25.44,10.78
+2024-01-31,Wednesday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,424,414,0.25,122.25,105.21,17.04,13.94
+2024-01-31,Wednesday,0,Regular,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,489,500,0.42,234.78,222.17,12.61,5.37
+2024-01-31,Wednesday,0,Regular,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,499,491,0.4,220.8,202.03,18.77,8.5
+2024-02-01,Thursday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,486,473,0.35,185.85,182.75,3.1,1.67
+2024-02-01,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,503,490,0.5,282.0,274.85,7.15,2.54
+2024-02-01,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,489,480,0.42,238.56,217.2,21.36,8.95
+2024-02-02,Friday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,512,521,0.3,174.6,172.03,2.57,1.47
+2024-02-02,Friday,0,Regular,Cold,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,477,474,0.44,244.2,228.0,16.2,6.63
+2024-02-02,Friday,0,Regular,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,536,544,0.42,255.36,249.09,6.27,2.46
+2024-02-03,Saturday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,229,226,0.38,96.9,96.9,0.0,0.0
+2024-02-03,Saturday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,293,304,0.38,125.4,111.55,13.85,11.04
+2024-02-03,Saturday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,213,210,0.4,96.8,89.36,7.44,7.69
+2024-02-04,Sunday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,180,166,0.22,43.78,35.48,8.3,18.96
+2024-02-04,Sunday,1,Weekend,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,296,305,0.52,179.4,179.33,0.07,0.04
+2024-02-04,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,214,225,0.48,111.36,111.36,0.0,0.0
+2024-02-05,Monday,0,Regular,Cold,Breakfast,Poori Bhaji,North Indian,4.5,650,447,434,0.35,180.95,171.51,9.44,5.22
+2024-02-05,Monday,0,Regular,Cold,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,545,536,0.48,304.32,294.66,9.66,3.17
+2024-02-05,Monday,0,Regular,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,496,502,0.47,254.27,254.27,0.0,0.0
+2024-02-06,Tuesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,437,441,0.35,179.9,174.89,5.01,2.78
+2024-02-06,Tuesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,539,527,0.5,306.5,305.06,1.44,0.47
+2024-02-06,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,513,510,0.4,229.6,217.65,11.95,5.2
+2024-02-07,Wednesday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,468,475,0.33,178.53,178.53,0.0,0.0
+2024-02-07,Wednesday,0,Regular,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,531,534,0.45,276.75,265.49,11.26,4.07
+2024-02-07,Wednesday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,536,523,0.42,254.1,236.02,18.08,7.12
+2024-02-08,Thursday,0,Regular,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,478,474,0.3,163.8,159.51,4.29,2.62
+2024-02-08,Thursday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,521,529,0.5,294.5,294.5,0.0,0.0
+2024-02-08,Thursday,0,Regular,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,554,556,0.4,256.4,233.94,22.46,8.76
+2024-02-09,Friday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,570,581,0.35,233.8,225.05,8.75,3.74
+2024-02-09,Friday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,555,554,0.52,328.12,328.12,0.0,0.0
+2024-02-09,Friday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,510,522,0.35,198.45,183.66,14.79,7.45
+2024-02-10,Saturday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,268,275,0.35,109.55,108.12,1.43,1.31
+2024-02-10,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,292,300,0.46,150.42,149.22,1.2,0.8
+2024-02-10,Saturday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,253,258,0.47,136.77,135.43,1.34,0.98
+2024-02-11,Sunday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,228,222,0.38,99.18,94.83,4.35,4.39
+2024-02-11,Sunday,1,Weekend,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,275,283,0.44,137.28,131.63,5.65,4.12
+2024-02-11,Sunday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,186,179,0.42,86.1,82.49,3.61,4.19
+2024-02-12,Monday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,464,455,0.22,112.42,98.2,14.22,12.65
+2024-02-12,Monday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,539,550,0.42,248.64,236.92,11.72,4.71
+2024-02-12,Monday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,539,546,0.47,286.7,283.94,2.76,0.96
+2024-02-13,Tuesday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,598,603,0.33,230.01,226.34,3.67,1.6
+2024-02-13,Tuesday,0,Regular,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,595,595,0.48,322.08,322.08,0.0,0.0
+2024-02-13,Tuesday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,591,603,0.45,299.7,299.7,0.0,0.0
+2024-02-14,Wednesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,483,472,0.33,174.24,174.24,0.0,0.0
+2024-02-14,Wednesday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,424,416,0.42,194.04,184.83,9.21,4.75
+2024-02-14,Wednesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,501,505,0.4,220.8,213.18,7.62,3.45
+2024-02-15,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,420,418,0.22,102.52,90.97,11.55,11.27
+2024-02-15,Thursday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,529,520,0.45,271.8,257.37,14.43,5.31
+2024-02-15,Thursday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,495,485,0.45,252.45,241.25,11.2,4.44
+2024-02-16,Friday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,494,486,0.38,207.86,206.65,1.21,0.58
+2024-02-16,Friday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,508,500,0.52,309.4,300.0,9.4,3.04
+2024-02-16,Friday,0,Regular,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,530,540,0.39,242.19,212.18,30.01,12.39
+2024-02-17,Saturday,1,Weekend,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,336,323,0.35,127.4,127.4,0.0,0.0
+2024-02-17,Saturday,1,Weekend,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,378,377,0.42,182.28,166.89,15.39,8.44
+2024-02-17,Saturday,1,Weekend,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,275,275,0.35,108.15,97.39,10.76,9.95
+2024-02-18,Sunday,1,Weekend,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,284,271,0.25,78.25,69.68,8.57,10.95
+2024-02-18,Sunday,1,Weekend,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,473,479,0.48,263.52,262.7,0.82,0.31
+2024-02-18,Sunday,1,Weekend,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,368,368,0.48,199.68,199.34,0.34,0.17
+2024-02-19,Monday,0,Regular,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,468,468,0.38,209.0,200.99,8.01,3.83
+2024-02-19,Monday,0,Regular,Cold,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,418,424,0.38,172.9,155.91,16.99,9.83
+2024-02-19,Monday,0,Regular,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,511,505,0.42,245.7,228.65,17.05,6.94
+2024-02-20,Tuesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,462,457,0.3,151.2,151.2,0.0,0.0
+2024-02-20,Tuesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,537,539,0.48,289.92,287.5,2.42,0.83
+2024-02-20,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,507,516,0.4,228.8,216.83,11.97,5.23
+2024-02-21,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,459,458,0.28,150.08,138.89,11.19,7.46
+2024-02-21,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,509,513,0.48,283.2,283.2,0.0,0.0
+2024-02-21,Wednesday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,454,456,0.35,177.8,157.92,19.88,11.18
+2024-02-22,Thursday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,498,487,0.3,168.6,162.9,5.7,3.38
+2024-02-22,Thursday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,483,483,0.42,238.56,208.26,30.3,12.7
+2024-02-22,Thursday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,493,484,0.4,230.8,204.15,26.65,11.55
+2024-02-23,Friday,0,Regular,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,519,531,0.35,203.7,203.7,0.0,0.0
+2024-02-23,Friday,0,Regular,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,522,516,0.42,252.42,230.21,22.21,8.8
+2024-02-23,Friday,0,Regular,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,574,574,0.4,267.6,241.26,26.34,9.84
+2024-02-24,Saturday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,212,211,0.22,54.56,46.61,7.95,14.57
+2024-02-24,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,335,327,0.46,179.4,161.35,18.05,10.06
+2024-02-24,Saturday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,236,243,0.35,96.6,84.95,11.65,12.06
+2024-02-25,Sunday,1,Weekend,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,362,362,0.33,140.25,133.27,6.98,4.98
+2024-02-25,Sunday,1,Weekend,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,428,440,0.44,219.12,201.73,17.39,7.94
+2024-02-25,Sunday,1,Weekend,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,251,240,0.42,118.02,110.2,7.82,6.63
+2024-02-26,Monday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,431,438,0.35,168.7,167.84,0.86,0.51
+2024-02-26,Monday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,481,493,0.44,239.8,237.15,2.65,1.11
+2024-02-26,Monday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,478,487,0.39,210.21,192.68,17.53,8.34
+2024-02-27,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,520,512,0.33,198.0,191.61,6.39,3.23
+2024-02-27,Tuesday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,526,533,0.45,275.85,266.38,9.47,3.43
+2024-02-27,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,475,460,0.39,200.85,184.74,16.11,8.02
+2024-02-28,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,419,417,0.28,133.28,128.62,4.66,3.5
+2024-02-28,Wednesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,459,463,0.5,267.5,263.72,3.78,1.41
+2024-02-28,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,509,512,0.47,261.79,261.79,0.0,0.0
+2024-02-29,Thursday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,478,477,0.3,167.7,159.22,8.48,5.06
+2024-02-29,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,448,444,0.5,264.0,248.63,15.37,5.82
+2024-02-29,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,509,508,0.42,248.64,227.43,21.21,8.53
+2024-03-01,Friday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,436,432,0.28,138.6,134.7,3.9,2.81
+2024-03-01,Friday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,418,429,0.42,200.76,185.31,15.45,7.7
+2024-03-01,Friday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,523,532,0.4,241.2,218.53,22.67,9.4
+2024-03-02,Saturday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,281,273,0.35,112.0,106.17,5.83,5.21
+2024-03-02,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,351,357,0.46,186.3,179.66,6.64,3.56
+2024-03-02,Saturday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,255,260,0.39,108.03,103.39,4.64,4.3
+2024-03-03,Sunday,1,Weekend,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,233,241,0.3,76.2,76.2,0.0,0.0
+2024-03-03,Sunday,1,Weekend,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,313,303,0.44,151.36,144.41,6.95,4.59
+2024-03-03,Sunday,1,Weekend,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,206,199,0.35,83.65,69.05,14.6,17.45
+2024-03-04,Monday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,416,428,0.22,101.86,90.29,11.57,11.36
+2024-03-04,Monday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,485,477,0.45,254.25,242.01,12.24,4.81
+2024-03-04,Monday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,578,588,0.42,275.52,261.63,13.89,5.04
+2024-03-05,Tuesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,450,456,0.3,155.7,148.8,6.9,4.43
+2024-03-05,Tuesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,467,463,0.38,193.42,171.02,22.4,11.58
+2024-03-05,Tuesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,530,532,0.45,265.05,265.05,0.0,0.0
+2024-03-06,Wednesday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,566,560,0.38,246.24,236.0,10.24,4.16
+2024-03-06,Wednesday,0,Regular,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,587,581,0.48,332.16,310.94,21.22,6.39
+2024-03-06,Wednesday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,587,576,0.47,308.32,301.11,7.21,2.34
+2024-03-07,Thursday,0,Regular,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,499,507,0.25,143.75,131.96,11.79,8.2
+2024-03-07,Thursday,0,Regular,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,607,611,0.45,306.0,306.0,0.0,0.0
+2024-03-07,Thursday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,613,604,0.45,310.05,310.05,0.0,0.0
+2024-03-08,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,488,493,0.33,179.52,179.52,0.0,0.0
+2024-03-08,Friday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,548,560,0.46,293.02,271.38,21.64,7.39
+2024-03-08,Friday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,566,570,0.47,313.02,292.82,20.2,6.45
+2024-03-09,Saturday,1,Weekend,Cold,Breakfast,Oats Porridge,Continental,2.2,650,224,211,0.22,57.2,45.74,11.46,20.03
+2024-03-09,Saturday,1,Weekend,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,353,345,0.46,180.32,167.72,12.6,6.99
+2024-03-09,Saturday,1,Weekend,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,198,210,0.4,93.2,90.99,2.21,2.37
+2024-03-10,Sunday,1,Weekend,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,281,266,0.3,92.1,87.26,4.84,5.26
+2024-03-10,Sunday,1,Weekend,Overcast,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,363,348,0.46,183.08,168.27,14.81,8.09
+2024-03-10,Sunday,1,Weekend,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,235,223,0.39,105.69,87.89,17.8,16.84
+2024-03-11,Monday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,475,467,0.3,167.1,150.55,16.55,9.9
+2024-03-11,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,482,467,0.42,219.66,204.13,15.53,7.07
+2024-03-11,Monday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,526,514,0.42,249.06,239.32,9.74,3.91
+2024-03-12,Tuesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,374,363,0.25,103.5,93.11,10.39,10.04
+2024-03-12,Tuesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,437,441,0.44,217.8,206.31,11.49,5.28
+2024-03-12,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,463,473,0.4,212.8,203.42,9.38,4.41
+2024-03-13,Wednesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,518,516,0.33,192.06,191.0,1.06,0.55
+2024-03-13,Wednesday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,516,513,0.44,254.32,235.13,19.19,7.55
+2024-03-13,Wednesday,0,Regular,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,507,500,0.42,237.72,223.26,14.46,6.08
+2024-03-14,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,403,401,0.22,96.58,87.9,8.68,8.99
+2024-03-14,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,537,540,0.5,315.5,306.64,8.86,2.81
+2024-03-14,Thursday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,479,475,0.39,218.01,192.38,25.63,11.76
+2024-03-15,Friday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,496,500,0.3,165.3,161.73,3.57,2.16
+2024-03-15,Friday,0,Regular,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,445,445,0.46,225.4,215.85,9.55,4.24
+2024-03-15,Friday,0,Regular,Cold,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,529,517,0.48,293.28,282.02,11.26,3.84
+2024-03-16,Saturday,1,Weekend,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,282,286,0.22,71.06,62.0,9.06,12.75
+2024-03-16,Saturday,1,Weekend,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,342,335,0.42,165.06,145.0,20.06,12.15
+2024-03-16,Saturday,1,Weekend,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,246,236,0.35,100.45,83.42,17.03,16.95
+2024-03-17,Sunday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,284,271,0.33,107.91,100.24,7.67,7.11
+2024-03-17,Sunday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,294,284,0.38,124.64,108.06,16.58,13.3
+2024-03-17,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,280,284,0.48,145.92,145.92,0.0,0.0
+2024-03-18,Monday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,460,459,0.33,173.91,172.24,1.67,0.96
+2024-03-18,Monday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,517,508,0.52,310.44,296.08,14.36,4.63
+2024-03-18,Monday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,498,504,0.42,239.82,229.29,10.53,4.39
+2024-03-19,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,527,513,0.38,216.22,216.22,0.0,0.0
+2024-03-19,Tuesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,516,525,0.46,262.2,257.85,4.35,1.66
+2024-03-19,Tuesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,541,539,0.45,266.85,266.85,0.0,0.0
+2024-03-20,Wednesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,442,438,0.22,105.6,96.72,8.88,8.41
+2024-03-20,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,513,512,0.48,288.48,285.01,3.47,1.2
+2024-03-20,Wednesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,509,506,0.4,234.0,212.33,21.67,9.26
+2024-03-21,Thursday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,415,419,0.35,163.45,163.45,0.0,0.0
+2024-03-21,Thursday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,415,427,0.44,198.88,198.88,0.0,0.0
+2024-03-21,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,484,481,0.42,236.88,221.97,14.91,6.29
+2024-03-22,Friday,0,Regular,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,443,431,0.3,150.3,140.11,10.19,6.78
+2024-03-22,Friday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,444,455,0.44,223.52,209.18,14.34,6.42
+2024-03-22,Friday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,477,468,0.45,235.35,232.75,2.6,1.1
+2024-03-23,Saturday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,238,237,0.22,60.28,52.01,8.27,13.72
+2024-03-23,Saturday,1,Weekend,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,391,394,0.52,232.44,232.44,0.0,0.0
+2024-03-23,Saturday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,267,272,0.35,103.6,95.43,8.17,7.89
+2024-03-24,Sunday,1,Weekend,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,243,229,0.22,59.4,48.19,11.21,18.87
+2024-03-24,Sunday,1,Weekend,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,398,384,0.52,230.88,225.88,5.0,2.17
+2024-03-24,Sunday,1,Weekend,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,301,313,0.39,127.53,124.22,3.31,2.6
+2024-03-25,Monday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,473,459,0.22,117.04,101.04,16.0,13.67
+2024-03-25,Monday,0,Regular,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,502,502,0.46,260.82,255.27,5.55,2.13
+2024-03-25,Monday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,515,526,0.42,240.66,240.66,0.0,0.0
+2024-03-26,Tuesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,472,471,0.28,149.52,143.83,5.69,3.81
+2024-03-26,Tuesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,465,459,0.44,228.8,218.62,10.18,4.45
+2024-03-26,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,493,503,0.39,219.57,196.58,22.99,10.47
+2024-03-27,Wednesday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,487,495,0.38,215.46,215.46,0.0,0.0
+2024-03-27,Wednesday,0,Regular,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,519,522,0.5,297.0,297.0,0.0,0.0
+2024-03-27,Wednesday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,553,560,0.35,221.55,192.81,28.74,12.97
+2024-03-28,Thursday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,431,441,0.25,119.75,109.77,9.98,8.33
+2024-03-28,Thursday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,522,520,0.45,265.5,253.91,11.59,4.37
+2024-03-28,Thursday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,468,459,0.35,182.35,164.18,18.17,9.96
+2024-03-29,Friday,0,Regular,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,399,411,0.28,129.36,124.8,4.56,3.53
+2024-03-29,Friday,0,Regular,Cold,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,494,503,0.48,270.72,270.72,0.0,0.0
+2024-03-29,Friday,0,Regular,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,474,485,0.47,255.68,255.68,0.0,0.0
+2024-03-30,Saturday,1,Weekend,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,327,333,0.3,112.8,112.8,0.0,0.0
+2024-03-30,Saturday,1,Weekend,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,441,451,0.42,208.32,197.76,10.56,5.07
+2024-03-30,Saturday,1,Weekend,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,349,359,0.35,137.55,128.93,8.62,6.27
+2024-03-31,Sunday,1,Weekend,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,259,253,0.38,113.62,108.85,4.77,4.2
+2024-03-31,Sunday,1,Weekend,Cold,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,343,354,0.38,143.26,133.75,9.51,6.64
+2024-03-31,Sunday,1,Weekend,Cold,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,242,247,0.48,130.56,130.56,0.0,0.0
+2024-04-01,Monday,0,Exam,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,556,550,0.25,151.25,137.17,14.08,9.31
+2024-04-01,Monday,0,Exam,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,633,622,0.52,382.72,362.09,20.63,5.39
+2024-04-01,Monday,0,Exam,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,633,629,0.47,348.74,329.6,19.14,5.49
+2024-04-02,Tuesday,0,Exam,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,542,538,0.38,226.86,226.86,0.0,0.0
+2024-04-02,Tuesday,0,Exam,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,551,556,0.45,275.85,273.41,2.44,0.88
+2024-04-02,Tuesday,0,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,536,547,0.45,271.8,271.8,0.0,0.0
+2024-04-03,Wednesday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,419,406,0.25,113.25,101.6,11.65,10.29
+2024-04-03,Wednesday,0,Exam,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,549,557,0.5,313.0,313.0,0.0,0.0
+2024-04-03,Wednesday,0,Exam,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,556,550,0.48,291.36,291.36,0.0,0.0
+2024-04-04,Thursday,0,Exam,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,509,509,0.3,174.0,163.84,10.16,5.84
+2024-04-04,Thursday,0,Exam,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,586,580,0.46,302.68,289.45,13.23,4.37
+2024-04-04,Thursday,0,Exam,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,618,608,0.47,332.76,312.95,19.81,5.95
+2024-04-05,Friday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,478,488,0.25,140.75,124.59,16.16,11.48
+2024-04-05,Friday,0,Exam,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,528,514,0.38,229.14,198.61,30.53,13.32
+2024-04-05,Friday,0,Exam,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,556,552,0.35,225.4,192.56,32.84,14.57
+2024-04-06,Saturday,1,Exam,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,401,410,0.22,98.12,86.11,12.01,12.24
+2024-04-06,Saturday,1,Exam,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,595,585,0.44,304.48,277.24,27.24,8.95
+2024-04-06,Saturday,1,Exam,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,401,391,0.39,181.35,150.32,31.03,17.11
+2024-04-07,Sunday,1,Exam,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,331,341,0.35,127.4,127.4,0.0,0.0
+2024-04-07,Sunday,1,Exam,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,478,489,0.42,227.64,210.97,16.67,7.32
+2024-04-07,Sunday,1,Exam,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,392,386,0.48,209.76,209.76,0.0,0.0
+2024-04-08,Monday,0,Exam,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,534,532,0.3,187.2,178.21,8.99,4.8
+2024-04-08,Monday,0,Exam,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,474,464,0.38,203.3,174.18,29.12,14.32
+2024-04-08,Monday,0,Exam,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,583,593,0.48,304.32,304.32,0.0,0.0
+2024-04-09,Tuesday,0,Exam,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,484,479,0.28,147.56,144.0,3.56,2.41
+2024-04-09,Tuesday,0,Exam,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,475,479,0.42,229.74,205.61,24.13,10.5
+2024-04-09,Tuesday,0,Exam,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,527,513,0.42,254.94,238.88,16.06,6.3
+2024-04-10,Wednesday,0,Exam,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,553,539,0.33,198.33,198.33,0.0,0.0
+2024-04-10,Wednesday,0,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,511,519,0.44,257.84,249.64,8.2,3.18
+2024-04-10,Wednesday,0,Exam,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,595,601,0.47,323.83,308.48,15.35,4.74
+2024-04-11,Thursday,0,Exam,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,467,470,0.35,176.75,176.75,0.0,0.0
+2024-04-11,Thursday,0,Exam,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,557,553,0.52,325.52,321.67,3.85,1.18
+2024-04-11,Thursday,0,Exam,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,540,537,0.47,282.0,279.33,2.67,0.95
+2024-04-12,Friday,0,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,501,498,0.28,164.08,147.95,16.13,9.83
+2024-04-12,Friday,0,Exam,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,534,525,0.42,264.18,226.92,37.26,14.1
+2024-04-12,Friday,0,Exam,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,536,525,0.42,262.08,238.39,23.69,9.04
+2024-04-13,Saturday,1,Exam,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,403,415,0.3,142.2,138.45,3.75,2.64
+2024-04-13,Saturday,1,Exam,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,516,510,0.45,271.35,260.5,10.85,4.0
+2024-04-13,Saturday,1,Exam,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,353,360,0.39,157.17,144.56,12.61,8.02
+2024-04-14,Sunday,1,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,381,373,0.28,123.48,110.24,13.24,10.72
+2024-04-14,Sunday,1,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,472,474,0.44,226.6,226.6,0.0,0.0
+2024-04-14,Sunday,1,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,339,346,0.45,175.5,175.5,0.0,0.0
+2024-04-15,Monday,0,Exam,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,466,461,0.3,159.9,151.99,7.91,4.95
+2024-04-15,Monday,0,Exam,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,482,493,0.44,245.52,233.06,12.46,5.07
+2024-04-15,Monday,0,Exam,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,596,585,0.47,314.43,314.43,0.0,0.0
+2024-04-16,Tuesday,0,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,447,437,0.28,139.16,134.18,4.98,3.58
+2024-04-16,Tuesday,0,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,526,527,0.44,270.6,252.0,18.6,6.87
+2024-04-16,Tuesday,0,Exam,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,465,467,0.35,179.9,165.66,14.24,7.92
+2024-04-17,Wednesday,0,Exam,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,478,481,0.33,172.59,172.59,0.0,0.0
+2024-04-17,Wednesday,0,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,542,545,0.44,258.28,258.28,0.0,0.0
+2024-04-17,Wednesday,0,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,524,529,0.45,272.7,264.68,8.02,2.94
+2024-04-18,Thursday,0,Exam,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,504,504,0.25,147.25,128.61,18.64,12.66
+2024-04-18,Thursday,0,Exam,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,529,539,0.42,257.88,234.61,23.27,9.02
+2024-04-18,Thursday,0,Exam,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,539,525,0.42,247.8,237.91,9.89,3.99
+2024-04-19,Friday,0,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,464,471,0.28,144.2,144.2,0.0,0.0
+2024-04-19,Friday,0,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,548,537,0.44,278.52,252.09,26.43,9.49
+2024-04-19,Friday,0,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,543,542,0.45,266.85,266.85,0.0,0.0
+2024-04-20,Saturday,1,Exam,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,397,395,0.38,166.44,166.44,0.0,0.0
+2024-04-20,Saturday,1,Exam,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,515,518,0.5,296.5,288.37,8.13,2.74
+2024-04-20,Saturday,1,Exam,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,349,350,0.47,184.71,184.71,0.0,0.0
+2024-04-21,Sunday,1,Exam,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,365,357,0.38,152.76,152.37,0.39,0.26
+2024-04-21,Sunday,1,Exam,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,484,488,0.48,271.2,268.73,2.47,0.91
+2024-04-21,Sunday,1,Exam,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,319,304,0.42,155.82,137.88,17.94,11.51
+2024-04-22,Monday,0,Exam,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,496,482,0.22,122.1,104.58,17.52,14.35
+2024-04-22,Monday,0,Exam,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,564,558,0.46,281.98,276.77,5.21,1.85
+2024-04-22,Monday,0,Exam,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,630,641,0.48,356.16,351.62,4.54,1.27
+2024-04-23,Tuesday,0,Exam,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,475,470,0.38,204.82,200.74,4.08,1.99
+2024-04-23,Tuesday,0,Exam,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,489,490,0.5,273.5,270.58,2.92,1.07
+2024-04-23,Tuesday,0,Exam,Cold,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,510,505,0.45,265.95,256.15,9.8,3.68
+2024-04-24,Wednesday,0,Exam,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,452,456,0.28,140.56,137.59,2.97,2.11
+2024-04-24,Wednesday,0,Exam,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,489,490,0.42,238.56,214.84,23.72,9.94
+2024-04-24,Wednesday,0,Exam,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,504,504,0.39,228.15,197.37,30.78,13.49
+2024-04-25,Thursday,0,Exam,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,445,453,0.25,129.75,116.17,13.58,10.47
+2024-04-25,Thursday,0,Exam,Cold,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,524,529,0.52,315.12,315.12,0.0,0.0
+2024-04-25,Thursday,0,Exam,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,514,500,0.4,234.0,206.85,27.15,11.6
+2024-04-26,Friday,0,Exam,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,484,495,0.22,122.1,103.88,18.22,14.92
+2024-04-26,Friday,0,Exam,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,551,550,0.45,275.4,270.54,4.86,1.76
+2024-04-26,Friday,0,Exam,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,542,543,0.39,244.53,219.65,24.88,10.17
+2024-04-27,Saturday,1,Exam,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,471,472,0.3,155.4,154.56,0.84,0.54
+2024-04-27,Saturday,1,Exam,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,607,602,0.52,370.76,357.36,13.4,3.61
+2024-04-27,Saturday,1,Exam,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,406,402,0.4,186.0,173.03,12.97,6.97
+2024-04-28,Sunday,1,Exam,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,410,401,0.35,168.7,155.33,13.37,7.93
+2024-04-28,Sunday,1,Exam,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,478,472,0.42,232.26,209.0,23.26,10.01
+2024-04-28,Sunday,1,Exam,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,377,372,0.39,165.75,147.35,18.4,11.1
+2024-04-29,Monday,0,Exam,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,530,536,0.35,210.35,210.35,0.0,0.0
+2024-04-29,Monday,0,Exam,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,572,581,0.38,251.94,215.35,36.59,14.52
+2024-04-29,Monday,0,Exam,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,624,611,0.35,243.25,214.39,28.86,11.86
+2024-04-30,Tuesday,0,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,502,495,0.28,164.64,151.87,12.77,7.76
+2024-04-30,Tuesday,0,Exam,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,487,495,0.5,277.0,276.35,0.65,0.23
+2024-04-30,Tuesday,0,Exam,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,540,532,0.39,240.63,204.4,36.23,15.06
+2024-05-01,Wednesday,0,Vacation,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,124,113,0.3,39.9,37.46,2.44,6.12
+2024-05-01,Wednesday,0,Vacation,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,128,128,0.5,72.0,71.29,0.71,0.99
+2024-05-01,Wednesday,0,Vacation,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,122,127,0.35,46.2,45.43,0.77,1.67
+2024-05-02,Thursday,0,Vacation,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,138,124,0.33,53.13,45.77,7.36,13.85
+2024-05-02,Thursday,0,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,151,137,0.5,89.0,77.12,11.88,13.35
+2024-05-02,Thursday,0,Vacation,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,135,143,0.42,66.36,66.36,0.0,0.0
+2024-05-03,Friday,0,Vacation,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,138,133,0.25,38.0,34.82,3.18,8.37
+2024-05-03,Friday,0,Vacation,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,170,159,0.52,102.96,94.43,8.53,8.28
+2024-05-03,Friday,0,Vacation,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,174,169,0.47,89.3,88.77,0.53,0.59
+2024-05-04,Saturday,1,Vacation,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,69,63,0.33,25.74,23.98,1.76,6.84
+2024-05-04,Saturday,1,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,102,107,0.5,59.5,59.5,0.0,0.0
+2024-05-04,Saturday,1,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,62,59,0.4,28.4,24.43,3.97,13.98
+2024-05-05,Sunday,1,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,51,48,0.28,15.68,14.77,0.91,5.8
+2024-05-05,Sunday,1,Vacation,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,83,91,0.44,41.36,41.36,0.0,0.0
+2024-05-05,Sunday,1,Vacation,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,61,47,0.35,24.15,16.51,7.64,31.64
+2024-05-06,Monday,0,Vacation,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,107,114,0.33,38.28,38.28,0.0,0.0
+2024-05-06,Monday,0,Vacation,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,98,90,0.42,44.94,38.56,6.38,14.2
+2024-05-06,Monday,0,Vacation,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,111,115,0.47,58.28,58.28,0.0,0.0
+2024-05-07,Tuesday,0,Vacation,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,139,130,0.22,35.2,28.39,6.81,19.35
+2024-05-07,Tuesday,0,Vacation,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,160,161,0.45,82.8,78.88,3.92,4.73
+2024-05-07,Tuesday,0,Vacation,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,151,162,0.4,68.4,68.32,0.08,0.12
+2024-05-08,Wednesday,0,Vacation,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,132,131,0.35,50.4,50.4,0.0,0.0
+2024-05-08,Wednesday,0,Vacation,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,125,126,0.52,72.8,72.8,0.0,0.0
+2024-05-08,Wednesday,0,Vacation,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,140,139,0.47,74.73,73.4,1.33,1.78
+2024-05-09,Thursday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,128,139,0.3,41.4,41.4,0.0,0.0
+2024-05-09,Thursday,0,Vacation,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,129,125,0.45,66.6,62.8,3.8,5.71
+2024-05-09,Thursday,0,Vacation,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,160,147,0.45,84.6,74.37,10.23,12.09
+2024-05-10,Friday,0,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,103,111,0.28,32.76,32.76,0.0,0.0
+2024-05-10,Friday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,96,93,0.38,40.66,35.3,5.36,13.18
+2024-05-10,Friday,0,Vacation,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,112,101,0.39,49.92,39.5,10.42,20.87
+2024-05-11,Saturday,1,Vacation,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,51,43,0.25,14.75,11.11,3.64,24.68
+2024-05-11,Saturday,1,Vacation,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,86,94,0.42,40.74,40.74,0.0,0.0
+2024-05-11,Saturday,1,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,62,61,0.48,33.12,32.75,0.37,1.12
+2024-05-12,Sunday,1,Vacation,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,115,121,0.3,38.7,38.7,0.0,0.0
+2024-05-12,Sunday,1,Vacation,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,172,159,0.48,89.76,84.72,5.04,5.61
+2024-05-12,Sunday,1,Vacation,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,133,145,0.4,57.6,57.6,0.0,0.0
+2024-05-13,Monday,0,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,112,121,0.28,33.88,33.88,0.0,0.0
+2024-05-13,Monday,0,Vacation,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,105,113,0.42,49.98,49.67,0.31,0.62
+2024-05-13,Monday,0,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,129,124,0.48,68.16,68.16,0.0,0.0
+2024-05-14,Tuesday,0,Vacation,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,153,139,0.38,65.74,60.08,5.66,8.61
+2024-05-14,Tuesday,0,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,172,170,0.5,97.5,93.91,3.59,3.68
+2024-05-14,Tuesday,0,Vacation,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,174,180,0.35,67.9,63.47,4.43,6.52
+2024-05-15,Wednesday,0,Vacation,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,131,140,0.35,51.8,51.8,0.0,0.0
+2024-05-15,Wednesday,0,Vacation,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,133,140,0.46,66.7,66.7,0.0,0.0
+2024-05-15,Wednesday,0,Vacation,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,153,151,0.45,77.85,75.02,2.83,3.64
+2024-05-16,Thursday,0,Vacation,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,92,91,0.33,35.31,33.44,1.87,5.3
+2024-05-16,Thursday,0,Vacation,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,93,90,0.46,48.76,44.88,3.88,7.96
+2024-05-16,Thursday,0,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,103,113,0.48,57.12,57.12,0.0,0.0
+2024-05-17,Friday,0,Vacation,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,118,112,0.22,30.36,23.48,6.88,22.66
+2024-05-17,Friday,0,Vacation,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,136,124,0.46,72.22,62.36,9.86,13.65
+2024-05-17,Friday,0,Vacation,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,142,149,0.47,73.32,73.32,0.0,0.0
+2024-05-18,Saturday,1,Vacation,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,96,101,0.38,40.66,40.66,0.0,0.0
+2024-05-18,Saturday,1,Vacation,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,132,142,0.52,80.6,80.6,0.0,0.0
+2024-05-18,Saturday,1,Vacation,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,92,83,0.48,48.96,44.89,4.07,8.31
+2024-05-19,Sunday,1,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,71,73,0.28,23.24,22.25,0.99,4.26
+2024-05-19,Sunday,1,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,105,96,0.38,44.08,35.78,8.3,18.83
+2024-05-19,Sunday,1,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,83,85,0.48,45.6,45.6,0.0,0.0
+2024-05-20,Monday,0,Vacation,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,103,103,0.33,37.95,37.95,0.0,0.0
+2024-05-20,Monday,0,Vacation,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,95,103,0.44,47.08,47.08,0.0,0.0
+2024-05-20,Monday,0,Vacation,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,115,101,0.4,52.0,43.4,8.6,16.54
+2024-05-21,Tuesday,0,Vacation,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,87,85,0.3,28.5,28.3,0.2,0.7
+2024-05-21,Tuesday,0,Vacation,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,92,77,0.45,45.45,38.51,6.94,15.27
+2024-05-21,Tuesday,0,Vacation,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,97,103,0.45,50.85,50.85,0.0,0.0
+2024-05-22,Wednesday,0,Vacation,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,121,106,0.25,32.5,27.33,5.17,15.91
+2024-05-22,Wednesday,0,Vacation,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,119,130,0.42,57.12,56.67,0.45,0.79
+2024-05-22,Wednesday,0,Vacation,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,137,125,0.47,72.85,64.89,7.96,10.93
+2024-05-23,Thursday,0,Vacation,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,122,119,0.35,46.2,46.2,0.0,0.0
+2024-05-23,Thursday,0,Vacation,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,139,146,0.52,79.56,79.56,0.0,0.0
+2024-05-23,Thursday,0,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,135,147,0.48,73.92,73.92,0.0,0.0
+2024-05-24,Friday,0,Vacation,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,103,88,0.38,44.84,37.02,7.82,17.44
+2024-05-24,Friday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,109,104,0.38,46.74,39.89,6.85,14.66
+2024-05-24,Friday,0,Vacation,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,134,120,0.45,66.15,62.1,4.05,6.12
+2024-05-25,Saturday,1,Vacation,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,103,90,0.35,41.3,34.86,6.44,15.59
+2024-05-25,Saturday,1,Vacation,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,149,161,0.48,79.2,79.2,0.0,0.0
+2024-05-25,Saturday,1,Vacation,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,99,110,0.4,45.2,45.2,0.0,0.0
+2024-05-26,Sunday,1,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,60,72,0.28,18.76,18.76,0.0,0.0
+2024-05-26,Sunday,1,Vacation,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,79,87,0.44,37.84,37.84,0.0,0.0
+2024-05-26,Sunday,1,Vacation,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,45,53,0.39,20.28,20.28,0.0,0.0
+2024-05-27,Monday,0,Vacation,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,116,120,0.35,47.6,46.78,0.82,1.72
+2024-05-27,Monday,0,Vacation,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,106,99,0.44,53.68,46.31,7.37,13.73
+2024-05-27,Monday,0,Vacation,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,125,122,0.47,65.8,64.84,0.96,1.46
+2024-05-28,Tuesday,0,Vacation,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,115,107,0.25,33.0,26.56,6.44,19.52
+2024-05-28,Tuesday,0,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,137,147,0.5,78.0,78.0,0.0,0.0
+2024-05-28,Tuesday,0,Vacation,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,131,118,0.35,49.35,41.07,8.28,16.78
+2024-05-29,Wednesday,0,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,96,94,0.28,29.96,28.62,1.34,4.47
+2024-05-29,Wednesday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,94,81,0.38,39.52,29.66,9.86,24.95
+2024-05-29,Wednesday,0,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,120,132,0.4,53.6,53.6,0.0,0.0
+2024-05-30,Thursday,0,Vacation,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,109,101,0.25,30.75,25.2,5.55,18.05
+2024-05-30,Thursday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,98,91,0.38,41.04,34.15,6.89,16.79
+2024-05-30,Thursday,0,Vacation,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,117,110,0.45,58.95,55.69,3.26,5.53
+2024-05-31,Friday,0,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,85,85,0.28,26.88,25.36,1.52,5.65
+2024-05-31,Friday,0,Vacation,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,83,68,0.45,43.65,33.78,9.87,22.61
+2024-05-31,Friday,0,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,88,100,0.4,38.8,38.8,0.0,0.0
+2024-06-01,Saturday,1,Vacation,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,88,83,0.25,25.0,21.37,3.63,14.52
+2024-06-01,Saturday,1,Vacation,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,151,148,0.52,92.04,87.08,4.96,5.39
+2024-06-01,Saturday,1,Vacation,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,105,108,0.39,47.19,42.19,5.0,10.6
+2024-06-02,Sunday,1,Vacation,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,69,72,0.35,26.25,26.25,0.0,0.0
+2024-06-02,Sunday,1,Vacation,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,111,113,0.5,60.0,60.0,0.0,0.0
+2024-06-02,Sunday,1,Vacation,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,63,73,0.39,26.91,26.91,0.0,0.0
+2024-06-03,Monday,0,Vacation,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,150,139,0.38,64.98,58.97,6.01,9.25
+2024-06-03,Monday,0,Vacation,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,160,170,0.5,89.0,89.0,0.0,0.0
+2024-06-03,Monday,0,Vacation,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,153,150,0.4,69.2,64.76,4.44,6.42
+2024-06-04,Tuesday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,154,150,0.3,53.1,50.43,2.67,5.03
+2024-06-04,Tuesday,0,Vacation,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,146,138,0.45,75.15,68.64,6.51,8.66
+2024-06-04,Tuesday,0,Vacation,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,156,159,0.39,71.37,63.41,7.96,11.15
+2024-06-05,Wednesday,0,Vacation,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,96,81,0.22,22.88,17.2,5.68,24.83
+2024-06-05,Wednesday,0,Vacation,Overcast,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,112,109,0.46,57.96,54.59,3.37,5.81
+2024-06-05,Wednesday,0,Vacation,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,114,110,0.39,52.26,43.37,8.89,17.01
+2024-06-06,Thursday,0,Vacation,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,93,101,0.3,30.3,30.3,0.0,0.0
+2024-06-06,Thursday,0,Vacation,Cold,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,116,117,0.52,67.6,67.6,0.0,0.0
+2024-06-06,Thursday,0,Vacation,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,116,115,0.42,53.76,51.78,1.98,3.68
+2024-06-07,Friday,0,Vacation,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,123,111,0.22,31.02,23.49,7.53,24.27
+2024-06-07,Friday,0,Vacation,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,147,149,0.46,74.06,74.06,0.0,0.0
+2024-06-07,Friday,0,Vacation,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,149,146,0.42,71.4,65.32,6.08,8.52
+2024-06-08,Saturday,1,Vacation,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,100,91,0.33,36.96,34.05,2.91,7.87
+2024-06-08,Saturday,1,Vacation,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,138,129,0.48,72.96,71.22,1.74,2.38
+2024-06-08,Saturday,1,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,82,70,0.48,45.6,38.11,7.49,16.43
+2024-06-09,Sunday,1,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,70,82,0.3,23.7,23.7,0.0,0.0
+2024-06-09,Sunday,1,Vacation,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,105,109,0.44,51.48,50.02,1.46,2.84
+2024-06-09,Sunday,1,Vacation,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,77,81,0.35,29.4,28.82,0.58,1.97
+2024-06-10,Monday,0,Vacation,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,119,108,0.25,33.0,27.06,5.94,18.0
+2024-06-10,Monday,0,Vacation,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,142,149,0.45,69.75,69.75,0.0,0.0
+2024-06-10,Monday,0,Vacation,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,142,139,0.4,63.6,58.56,5.04,7.92
+2024-06-11,Tuesday,0,Vacation,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,119,119,0.28,36.68,35.49,1.19,3.24
+2024-06-11,Tuesday,0,Vacation,Cold,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,133,145,0.52,76.96,76.96,0.0,0.0
+2024-06-11,Tuesday,0,Vacation,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,129,126,0.47,70.97,66.35,4.62,6.51
+2024-06-12,Wednesday,0,Vacation,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,135,134,0.38,57.76,56.37,1.39,2.41
+2024-06-12,Wednesday,0,Vacation,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,145,137,0.48,76.8,73.95,2.85,3.71
+2024-06-12,Wednesday,0,Vacation,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,133,142,0.4,59.6,59.6,0.0,0.0
+2024-06-13,Thursday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,139,132,0.3,48.0,44.41,3.59,7.48
+2024-06-13,Thursday,0,Vacation,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,143,152,0.44,68.2,68.2,0.0,0.0
+2024-06-13,Thursday,0,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,142,140,0.4,61.6,60.13,1.47,2.39
+2024-06-14,Friday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,135,131,0.3,47.1,42.33,4.77,10.13
+2024-06-14,Friday,0,Vacation,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,153,145,0.45,75.6,73.62,1.98,2.62
+2024-06-14,Friday,0,Vacation,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,139,146,0.39,61.62,57.38,4.24,6.88
+2024-06-15,Saturday,1,Vacation,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,76,62,0.22,18.92,13.42,5.5,29.07
+2024-06-15,Saturday,1,Vacation,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,132,139,0.5,73.0,73.0,0.0,0.0
+2024-06-15,Saturday,1,Vacation,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,102,108,0.48,56.64,56.64,0.0,0.0
+2024-06-16,Sunday,1,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,115,127,0.3,39.3,39.3,0.0,0.0
+2024-06-16,Sunday,1,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,133,140,0.5,73.5,73.5,0.0,0.0
+2024-06-16,Sunday,1,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,107,107,0.48,56.16,56.16,0.0,0.0
+2024-06-17,Monday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,130,139,0.3,42.3,42.3,0.0,0.0
+2024-06-17,Monday,0,Vacation,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,133,129,0.42,62.58,56.42,6.16,9.84
+2024-06-17,Monday,0,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,125,134,0.4,58.0,55.19,2.81,4.84
+2024-06-18,Tuesday,0,Vacation,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,170,157,0.33,65.01,58.64,6.37,9.8
+2024-06-18,Tuesday,0,Vacation,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,173,173,0.38,72.58,66.25,6.33,8.72
+2024-06-18,Tuesday,0,Vacation,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,177,166,0.35,70.35,58.4,11.95,16.99
+2024-06-19,Wednesday,0,Vacation,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,106,111,0.3,36.6,36.6,0.0,0.0
+2024-06-19,Wednesday,0,Vacation,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,131,121,0.45,66.15,59.03,7.12,10.76
+2024-06-19,Wednesday,0,Vacation,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,121,128,0.42,59.22,59.22,0.0,0.0
+2024-06-20,Thursday,0,Vacation,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,95,91,0.35,36.4,35.43,0.97,2.66
+2024-06-20,Thursday,0,Vacation,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,101,106,0.5,56.0,56.0,0.0,0.0
+2024-06-20,Thursday,0,Vacation,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,113,100,0.47,60.63,51.23,9.4,15.5
+2024-06-21,Friday,0,Vacation,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,113,112,0.28,34.16,34.16,0.0,0.0
+2024-06-21,Friday,0,Vacation,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,133,131,0.45,68.4,65.59,2.81,4.11
+2024-06-21,Friday,0,Vacation,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,128,136,0.47,69.56,69.56,0.0,0.0
+2024-06-22,Saturday,1,Vacation,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,86,95,0.38,38.0,38.0,0.0,0.0
+2024-06-22,Saturday,1,Vacation,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,100,103,0.5,54.0,54.0,0.0,0.0
+2024-06-22,Saturday,1,Vacation,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,71,62,0.42,34.02,27.68,6.34,18.64
+2024-06-23,Sunday,1,Vacation,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,78,66,0.22,18.7,13.93,4.77,25.51
+2024-06-23,Sunday,1,Vacation,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,114,112,0.38,47.88,41.13,6.75,14.1
+2024-06-23,Sunday,1,Vacation,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,92,84,0.35,36.4,29.75,6.65,18.27
+2024-06-24,Monday,0,Vacation,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,117,129,0.33,44.22,44.22,0.0,0.0
+2024-06-24,Monday,0,Vacation,Overcast,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,136,130,0.46,71.3,65.48,5.82,8.16
+2024-06-24,Monday,0,Vacation,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,154,154,0.48,82.56,82.53,0.03,0.04
+2024-06-25,Tuesday,0,Vacation,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,139,134,0.3,45.3,45.17,0.13,0.29
+2024-06-25,Tuesday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,120,126,0.38,49.78,47.22,2.56,5.14
+2024-06-25,Tuesday,0,Vacation,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,136,139,0.48,70.56,70.56,0.0,0.0
+2024-06-26,Wednesday,0,Vacation,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,71,65,0.22,17.82,14.04,3.78,21.21
+2024-06-26,Wednesday,0,Vacation,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,77,74,0.38,31.54,27.84,3.7,11.73
+2024-06-26,Wednesday,0,Vacation,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,82,69,0.4,36.4,29.11,7.29,20.03
+2024-06-27,Thursday,0,Vacation,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,84,87,0.25,24.0,22.58,1.42,5.92
+2024-06-27,Thursday,0,Vacation,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,97,95,0.45,49.95,48.51,1.44,2.88
+2024-06-27,Thursday,0,Vacation,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,103,101,0.45,50.4,50.4,0.0,0.0
+2024-06-28,Friday,0,Vacation,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,96,84,0.33,33.99,30.94,3.05,8.97
+2024-06-28,Friday,0,Vacation,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,92,88,0.48,49.92,48.79,1.13,2.26
+2024-06-28,Friday,0,Vacation,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,90,86,0.39,38.22,34.51,3.71,9.71
+2024-06-29,Saturday,1,Vacation,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,77,72,0.22,19.58,15.34,4.24,21.65
+2024-06-29,Saturday,1,Vacation,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,101,104,0.45,51.75,51.75,0.0,0.0
+2024-06-29,Saturday,1,Vacation,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,69,69,0.4,32.0,28.54,3.46,10.81
+2024-06-30,Sunday,1,Vacation,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,67,55,0.25,18.25,14.0,4.25,23.29
+2024-06-30,Sunday,1,Vacation,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,104,89,0.48,54.72,48.54,6.18,11.29
+2024-06-30,Sunday,1,Vacation,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,78,68,0.42,38.22,31.57,6.65,17.4
+2024-07-01,Monday,0,Regular,Cold,Breakfast,Masala Dosa,South Indian,4.8,650,492,484,0.33,180.51,180.51,0.0,0.0
+2024-07-01,Monday,0,Regular,Cold,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,460,447,0.44,230.12,205.17,24.95,10.84
+2024-07-01,Monday,0,Regular,Cold,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,523,513,0.39,224.64,202.66,21.98,9.78
+2024-07-02,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,470,479,0.38,207.86,204.16,3.7,1.78
+2024-07-02,Tuesday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,432,423,0.52,249.08,249.08,0.0,0.0
+2024-07-02,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,461,460,0.39,200.46,186.63,13.83,6.9
+2024-07-03,Wednesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,547,556,0.33,209.22,204.95,4.27,2.04
+2024-07-03,Wednesday,0,Regular,Overcast,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,435,437,0.38,183.92,167.45,16.47,8.95
+2024-07-03,Wednesday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,608,593,0.45,315.9,298.49,17.41,5.51
+2024-07-04,Thursday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,473,465,0.28,148.4,144.74,3.66,2.47
+2024-07-04,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,538,525,0.5,291.5,291.5,0.0,0.0
+2024-07-04,Thursday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,550,557,0.48,308.64,301.99,6.65,2.15
+2024-07-05,Friday,0,Regular,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,460,471,0.25,128.5,120.52,7.98,6.21
+2024-07-05,Friday,0,Regular,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,564,553,0.48,298.56,298.26,0.3,0.1
+2024-07-05,Friday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,585,582,0.35,235.2,207.8,27.4,11.65
+2024-07-06,Saturday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,265,254,0.3,91.8,84.36,7.44,8.1
+2024-07-06,Saturday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,304,303,0.5,171.0,170.65,0.35,0.2
+2024-07-06,Saturday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,206,215,0.4,90.4,89.65,0.75,0.83
+2024-07-07,Sunday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,245,239,0.28,79.52,73.33,6.19,7.78
+2024-07-07,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,306,318,0.48,163.2,163.2,0.0,0.0
+2024-07-07,Sunday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,267,264,0.47,141.94,140.29,1.65,1.16
+2024-07-08,Monday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,482,494,0.3,162.6,162.6,0.0,0.0
+2024-07-08,Monday,0,Regular,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,430,418,0.46,229.08,203.12,25.96,11.33
+2024-07-08,Monday,0,Regular,Cold,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,472,481,0.45,250.2,238.93,11.27,4.5
+2024-07-09,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,537,524,0.33,201.63,194.28,7.35,3.65
+2024-07-09,Tuesday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,475,462,0.45,234.9,233.42,1.48,0.63
+2024-07-09,Tuesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,522,534,0.48,291.36,287.56,3.8,1.3
+2024-07-10,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,458,456,0.28,148.96,137.6,11.36,7.63
+2024-07-10,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,460,458,0.48,241.92,241.92,0.0,0.0
+2024-07-10,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,472,471,0.47,258.97,241.75,17.22,6.65
+2024-07-11,Thursday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,476,478,0.35,187.6,183.24,4.36,2.32
+2024-07-11,Thursday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,422,413,0.38,183.16,157.86,25.3,13.81
+2024-07-11,Thursday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,546,556,0.47,290.93,285.15,5.78,1.99
+2024-07-12,Friday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,513,513,0.38,216.98,216.98,0.0,0.0
+2024-07-12,Friday,0,Regular,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,504,494,0.44,239.8,232.97,6.83,2.85
+2024-07-12,Friday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,565,574,0.45,281.7,281.7,0.0,0.0
+2024-07-13,Saturday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,259,249,0.25,70.5,63.96,6.54,9.28
+2024-07-13,Saturday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,321,331,0.42,157.92,141.15,16.77,10.62
+2024-07-13,Saturday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,252,262,0.47,132.07,132.07,0.0,0.0
+2024-07-14,Sunday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,284,294,0.28,91.56,88.54,3.02,3.3
+2024-07-14,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,416,412,0.48,234.24,225.81,8.43,3.6
+2024-07-14,Sunday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,308,319,0.4,145.2,137.41,7.79,5.37
+2024-07-15,Monday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,432,418,0.38,180.88,177.13,3.75,2.07
+2024-07-15,Monday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,462,466,0.52,264.16,264.16,0.0,0.0
+2024-07-15,Monday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,456,466,0.39,206.7,182.0,24.7,11.95
+2024-07-16,Tuesday,0,Regular,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,487,499,0.28,154.28,150.32,3.96,2.57
+2024-07-16,Tuesday,0,Regular,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,492,498,0.45,247.5,244.28,3.22,1.3
+2024-07-16,Tuesday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,476,466,0.35,191.8,163.46,28.34,14.78
+2024-07-17,Wednesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,449,451,0.35,180.6,180.6,0.0,0.0
+2024-07-17,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,462,465,0.44,235.84,216.61,19.23,8.15
+2024-07-17,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,511,500,0.39,218.4,191.51,26.89,12.31
+2024-07-18,Thursday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,519,522,0.22,123.64,113.48,10.16,8.22
+2024-07-18,Thursday,0,Regular,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,555,543,0.46,299.46,263.88,35.58,11.88
+2024-07-18,Thursday,0,Regular,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,508,504,0.39,233.22,195.0,38.22,16.39
+2024-07-19,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,517,525,0.33,199.32,196.6,2.72,1.36
+2024-07-19,Friday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,467,474,0.42,212.94,204.53,8.41,3.95
+2024-07-19,Friday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,577,563,0.45,290.25,288.81,1.44,0.5
+2024-07-20,Saturday,1,Weekend,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,349,345,0.38,150.1,145.27,4.83,3.22
+2024-07-20,Saturday,1,Weekend,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,446,449,0.52,265.2,265.2,0.0,0.0
+2024-07-20,Saturday,1,Weekend,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,304,314,0.47,166.38,163.47,2.91,1.75
+2024-07-21,Sunday,1,Weekend,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,237,234,0.3,77.7,75.57,2.13,2.74
+2024-07-21,Sunday,1,Weekend,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,333,337,0.45,175.05,170.8,4.25,2.43
+2024-07-21,Sunday,1,Weekend,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,280,270,0.42,133.98,122.48,11.5,8.58
+2024-07-22,Monday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,417,419,0.28,134.4,128.79,5.61,4.17
+2024-07-22,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,449,443,0.42,207.9,188.85,19.05,9.16
+2024-07-22,Monday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,471,471,0.4,206.0,197.0,9.0,4.37
+2024-07-23,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,481,481,0.33,174.57,174.57,0.0,0.0
+2024-07-23,Tuesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,508,495,0.5,286.0,274.46,11.54,4.03
+2024-07-23,Tuesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,516,516,0.48,289.44,276.88,12.56,4.34
+2024-07-24,Wednesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,512,508,0.35,196.7,194.28,2.42,1.23
+2024-07-24,Wednesday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,514,506,0.52,310.96,302.02,8.94,2.87
+2024-07-24,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,559,565,0.47,286.23,286.23,0.0,0.0
+2024-07-25,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,442,444,0.22,105.6,95.26,10.34,9.79
+2024-07-25,Thursday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,508,514,0.38,224.96,192.68,32.28,14.35
+2024-07-25,Thursday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,547,534,0.47,287.64,286.43,1.21,0.42
+2024-07-26,Friday,0,Regular,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,466,472,0.25,137.25,117.63,19.62,14.3
+2024-07-26,Friday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,487,477,0.52,297.96,286.2,11.76,3.95
+2024-07-26,Friday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,495,482,0.47,274.01,252.85,21.16,7.72
+2024-07-27,Saturday,1,Weekend,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,315,310,0.22,80.96,68.67,12.29,15.18
+2024-07-27,Saturday,1,Weekend,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,428,430,0.45,215.55,213.54,2.01,0.93
+2024-07-27,Saturday,1,Weekend,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,315,327,0.35,119.0,116.51,2.49,2.09
+2024-07-28,Sunday,1,Weekend,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,264,253,0.3,90.0,84.02,5.98,6.64
+2024-07-28,Sunday,1,Weekend,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,400,403,0.45,208.35,205.13,3.22,1.55
+2024-07-28,Sunday,1,Weekend,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,283,279,0.48,158.4,149.7,8.7,5.49
+2024-07-29,Monday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,490,483,0.38,208.24,208.24,0.0,0.0
+2024-07-29,Monday,0,Regular,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,463,458,0.38,202.16,167.25,34.91,17.27
+2024-07-29,Monday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,588,584,0.42,267.12,267.12,0.0,0.0
+2024-07-30,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,489,495,0.38,202.16,202.16,0.0,0.0
+2024-07-30,Tuesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,470,478,0.5,264.0,264.0,0.0,0.0
+2024-07-30,Tuesday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,487,491,0.35,194.95,169.66,25.29,12.97
+2024-07-31,Wednesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,453,454,0.33,174.24,173.38,0.86,0.49
+2024-07-31,Wednesday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,444,451,0.5,251.0,250.34,0.66,0.26
+2024-07-31,Wednesday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,509,512,0.48,264.48,264.48,0.0,0.0
+2024-08-01,Thursday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,434,420,0.28,142.24,128.92,13.32,9.36
+2024-08-01,Thursday,0,Regular,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,478,477,0.42,226.8,210.38,16.42,7.24
+2024-08-01,Thursday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,570,562,0.45,286.2,286.19,0.01,0.0
+2024-08-02,Friday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,413,409,0.25,113.0,106.51,6.49,5.74
+2024-08-02,Friday,0,Regular,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,454,451,0.45,221.4,221.4,0.0,0.0
+2024-08-02,Friday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,544,556,0.48,287.52,287.52,0.0,0.0
+2024-08-03,Saturday,1,Weekend,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,213,222,0.25,62.5,57.11,5.39,8.62
+2024-08-03,Saturday,1,Weekend,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,384,389,0.52,218.92,218.92,0.0,0.0
+2024-08-03,Saturday,1,Weekend,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,257,267,0.47,141.47,141.47,0.0,0.0
+2024-08-04,Sunday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,300,299,0.38,125.78,125.78,0.0,0.0
+2024-08-04,Sunday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,332,317,0.38,142.5,120.19,22.31,15.66
+2024-08-04,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,298,300,0.48,163.68,163.68,0.0,0.0
+2024-08-05,Monday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,434,427,0.3,148.8,143.94,4.86,3.27
+2024-08-05,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,466,471,0.42,217.14,201.97,15.17,6.99
+2024-08-05,Monday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,493,479,0.48,274.56,264.44,10.12,3.69
+2024-08-06,Tuesday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,497,482,0.33,187.77,185.76,2.01,1.07
+2024-08-06,Tuesday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,556,553,0.42,261.24,235.54,25.7,9.84
+2024-08-06,Tuesday,0,Regular,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,581,592,0.39,248.82,236.79,12.03,4.83
+2024-08-07,Wednesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,396,402,0.22,97.02,85.79,11.23,11.57
+2024-08-07,Wednesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,509,511,0.5,279.0,279.0,0.0,0.0
+2024-08-07,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,524,532,0.47,285.76,283.99,1.77,0.62
+2024-08-08,Thursday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,503,495,0.35,196.35,196.35,0.0,0.0
+2024-08-08,Thursday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,482,477,0.42,225.96,209.78,16.18,7.16
+2024-08-08,Thursday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,548,548,0.42,249.48,249.48,0.0,0.0
+2024-08-09,Friday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,559,560,0.38,231.8,231.8,0.0,0.0
+2024-08-09,Friday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,512,524,0.42,250.32,224.53,25.79,10.3
+2024-08-09,Friday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,565,568,0.47,310.2,306.79,3.41,1.1
+2024-08-10,Saturday,1,Weekend,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,252,252,0.28,78.4,78.4,0.0,0.0
+2024-08-10,Saturday,1,Weekend,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,319,304,0.44,157.52,140.26,17.26,10.96
+2024-08-10,Saturday,1,Weekend,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,218,227,0.48,114.24,114.24,0.0,0.0
+2024-08-11,Sunday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,286,283,0.38,121.98,121.59,0.39,0.32
+2024-08-11,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,347,338,0.48,192.0,189.01,2.99,1.56
+2024-08-11,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,258,259,0.35,99.05,92.16,6.89,6.96
+2024-08-12,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,516,510,0.33,185.79,185.79,0.0,0.0
+2024-08-12,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,446,457,0.42,202.86,202.86,0.0,0.0
+2024-08-12,Monday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,541,545,0.42,257.04,247.22,9.82,3.82
+2024-08-13,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,473,464,0.38,196.84,196.84,0.0,0.0
+2024-08-13,Tuesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,416,408,0.38,182.02,149.75,32.27,17.73
+2024-08-13,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,455,456,0.39,194.61,178.55,16.06,8.25
+2024-08-14,Wednesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,463,465,0.33,174.24,174.24,0.0,0.0
+2024-08-14,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,529,534,0.48,295.2,284.74,10.46,3.54
+2024-08-14,Wednesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,532,529,0.45,261.45,261.45,0.0,0.0
+2024-08-15,Thursday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,501,495,0.33,185.46,181.98,3.48,1.88
+2024-08-15,Thursday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,492,499,0.42,225.96,222.54,3.42,1.51
+2024-08-15,Thursday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,545,549,0.45,267.75,267.75,0.0,0.0
+2024-08-16,Friday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,450,461,0.28,142.52,137.61,4.91,3.45
+2024-08-16,Friday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,403,389,0.38,173.66,149.69,23.97,13.8
+2024-08-16,Friday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,491,486,0.39,210.99,186.27,24.72,11.72
+2024-08-17,Saturday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,205,194,0.25,60.0,50.19,9.81,16.35
+2024-08-17,Saturday,1,Weekend,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,311,299,0.45,163.8,151.05,12.75,7.78
+2024-08-17,Saturday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,244,238,0.42,112.98,105.66,7.32,6.48
+2024-08-18,Sunday,1,Weekend,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,234,244,0.22,58.96,52.48,6.48,10.99
+2024-08-18,Sunday,1,Weekend,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,370,379,0.45,194.4,184.98,9.42,4.85
+2024-08-18,Sunday,1,Weekend,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,311,301,0.47,162.62,161.8,0.82,0.5
+2024-08-19,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,469,480,0.33,172.26,172.26,0.0,0.0
+2024-08-19,Monday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,518,511,0.38,228.76,194.06,34.7,15.17
+2024-08-19,Monday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,573,578,0.42,280.98,258.3,22.68,8.07
+2024-08-20,Tuesday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,409,407,0.22,105.16,87.84,17.32,16.47
+2024-08-20,Tuesday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,496,493,0.52,298.48,294.99,3.49,1.17
+2024-08-20,Tuesday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,544,555,0.48,300.96,300.96,0.0,0.0
+2024-08-21,Wednesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,466,453,0.38,195.7,192.94,2.76,1.41
+2024-08-21,Wednesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,520,526,0.46,279.22,261.11,18.11,6.49
+2024-08-21,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,500,488,0.39,218.79,195.19,23.6,10.79
+2024-08-22,Thursday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,509,520,0.33,195.03,195.03,0.0,0.0
+2024-08-22,Thursday,0,Regular,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,506,496,0.48,274.56,270.5,4.06,1.48
+2024-08-22,Thursday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,573,560,0.42,277.62,252.43,25.19,9.07
+2024-08-23,Friday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,395,400,0.25,110.25,103.7,6.55,5.94
+2024-08-23,Friday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,478,488,0.45,244.35,239.21,5.14,2.1
+2024-08-23,Friday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,494,482,0.42,244.02,222.42,21.6,8.85
+2024-08-24,Saturday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,211,196,0.3,73.5,65.83,7.67,10.44
+2024-08-24,Saturday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,294,296,0.42,135.66,130.82,4.84,3.57
+2024-08-24,Saturday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,174,160,0.35,70.7,57.49,13.21,18.68
+2024-08-25,Sunday,1,Weekend,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,226,232,0.25,63.0,58.88,4.12,6.54
+2024-08-25,Sunday,1,Weekend,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,359,351,0.45,174.15,174.15,0.0,0.0
+2024-08-25,Sunday,1,Weekend,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,264,258,0.39,116.61,101.07,15.54,13.33
+2024-08-26,Monday,0,Regular,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,416,423,0.38,182.4,181.08,1.32,0.72
+2024-08-26,Monday,0,Regular,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,448,439,0.42,205.38,196.02,9.36,4.56
+2024-08-26,Monday,0,Regular,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,491,501,0.47,253.33,253.33,0.0,0.0
+2024-08-27,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,523,526,0.33,188.43,188.43,0.0,0.0
+2024-08-27,Tuesday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,539,540,0.52,306.28,306.28,0.0,0.0
+2024-08-27,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,540,542,0.4,253.2,232.91,20.29,8.01
+2024-08-28,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,469,459,0.28,151.2,136.45,14.75,9.76
+2024-08-28,Wednesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,458,462,0.38,203.3,173.5,29.8,14.66
+2024-08-28,Wednesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,503,507,0.42,247.38,234.18,13.2,5.34
+2024-08-29,Thursday,0,Regular,Cold,Breakfast,Poori Bhaji,North Indian,4.5,650,449,438,0.35,171.85,171.85,0.0,0.0
+2024-08-29,Thursday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,480,482,0.42,234.78,213.52,21.26,9.06
+2024-08-29,Thursday,0,Regular,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,495,486,0.4,217.6,207.4,10.2,4.69
+2024-08-30,Friday,0,Regular,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,510,515,0.28,168.0,153.53,14.47,8.61
+2024-08-30,Friday,0,Regular,Cold,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,508,517,0.44,249.04,242.23,6.81,2.73
+2024-08-30,Friday,0,Regular,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,554,561,0.4,248.4,239.85,8.55,3.44
+2024-08-31,Saturday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,224,209,0.22,55.66,43.84,11.82,21.24
+2024-08-31,Saturday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,352,338,0.5,193.5,193.5,0.0,0.0
+2024-08-31,Saturday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,320,326,0.47,165.91,165.91,0.0,0.0
+2024-09-01,Sunday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,226,222,0.22,57.64,46.8,10.84,18.81
+2024-09-01,Sunday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,368,370,0.46,189.06,183.59,5.47,2.89
+2024-09-01,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,294,288,0.48,161.76,152.73,9.03,5.58
+2024-09-02,Monday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,448,443,0.22,115.94,93.1,22.84,19.7
+2024-09-02,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,434,446,0.42,210.84,199.35,11.49,5.45
+2024-09-02,Monday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,498,503,0.48,274.56,274.56,0.0,0.0
+2024-09-03,Tuesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,418,426,0.25,122.75,107.1,15.65,12.75
+2024-09-03,Tuesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,563,550,0.5,309.0,305.92,3.08,1.0
+2024-09-03,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,485,471,0.4,217.6,199.21,18.39,8.45
+2024-09-04,Wednesday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,445,444,0.35,179.2,170.83,8.37,4.67
+2024-09-04,Wednesday,0,Regular,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,543,547,0.5,294.5,294.5,0.0,0.0
+2024-09-04,Wednesday,0,Regular,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,543,537,0.4,245.2,227.34,17.86,7.28
+2024-09-05,Thursday,0,Regular,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,460,450,0.35,182.0,179.11,2.89,1.59
+2024-09-05,Thursday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,484,486,0.5,271.0,271.0,0.0,0.0
+2024-09-05,Thursday,0,Regular,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,528,523,0.47,276.83,271.15,5.68,2.05
+2024-09-06,Friday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,474,479,0.25,128.0,123.12,4.88,3.81
+2024-09-06,Friday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,501,506,0.52,296.92,296.92,0.0,0.0
+2024-09-06,Friday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,564,559,0.45,283.5,283.5,0.0,0.0
+2024-09-07,Saturday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,207,208,0.33,79.2,77.6,1.6,2.02
+2024-09-07,Saturday,1,Weekend,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,308,302,0.52,187.2,176.76,10.44,5.58
+2024-09-07,Saturday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,172,160,0.4,75.2,69.21,5.99,7.97
+2024-09-08,Sunday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,222,227,0.3,76.8,76.54,0.26,0.34
+2024-09-08,Sunday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,331,322,0.38,142.5,122.38,20.12,14.12
+2024-09-08,Sunday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,244,249,0.39,110.37,95.78,14.59,13.22
+2024-09-09,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,473,460,0.33,169.62,169.62,0.0,0.0
+2024-09-09,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,484,487,0.42,236.04,218.17,17.87,7.57
+2024-09-09,Monday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,515,520,0.42,242.34,234.34,8.0,3.3
+2024-09-10,Tuesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,465,469,0.3,151.5,151.5,0.0,0.0
+2024-09-10,Tuesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,512,499,0.48,274.08,272.61,1.47,0.54
+2024-09-10,Tuesday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,498,492,0.35,198.8,170.98,27.82,13.99
+2024-09-11,Wednesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,456,456,0.22,109.78,96.83,12.95,11.8
+2024-09-11,Wednesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,501,513,0.38,215.84,197.98,17.86,8.27
+2024-09-11,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,540,550,0.47,296.1,291.81,4.29,1.45
+2024-09-12,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,448,436,0.22,106.7,94.61,12.09,11.33
+2024-09-12,Thursday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,479,466,0.38,201.78,177.59,24.19,11.99
+2024-09-12,Thursday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,502,500,0.39,228.93,201.45,27.48,12.0
+2024-09-13,Friday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,434,425,0.25,118.25,109.25,9.0,7.61
+2024-09-13,Friday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,506,508,0.48,273.12,273.12,0.0,0.0
+2024-09-13,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,471,464,0.35,179.55,165.57,13.98,7.79
+2024-09-14,Saturday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,252,244,0.28,76.72,74.55,2.17,2.83
+2024-09-14,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,319,318,0.46,162.84,159.09,3.75,2.3
+2024-09-14,Saturday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,224,227,0.39,99.06,91.23,7.83,7.9
+2024-09-15,Sunday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,259,251,0.35,104.3,99.13,5.17,4.96
+2024-09-15,Sunday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,392,381,0.42,188.58,165.12,23.46,12.44
+2024-09-15,Sunday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,269,265,0.42,130.62,120.56,10.06,7.7
+2024-09-16,Monday,0,Regular,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,506,518,0.3,176.4,174.9,1.5,0.85
+2024-09-16,Monday,0,Regular,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,477,482,0.46,238.28,233.37,4.91,2.06
+2024-09-16,Monday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,542,547,0.45,264.15,264.15,0.0,0.0
+2024-09-17,Tuesday,0,Regular,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,505,507,0.3,177.0,167.98,9.02,5.1
+2024-09-17,Tuesday,0,Regular,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,528,520,0.5,308.5,295.72,12.78,4.14
+2024-09-17,Tuesday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,550,549,0.48,298.08,291.83,6.25,2.1
+2024-09-18,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,474,484,0.28,156.24,148.4,7.84,5.02
+2024-09-18,Wednesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,486,476,0.5,276.0,270.36,5.64,2.04
+2024-09-18,Wednesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,559,567,0.48,309.12,309.12,0.0,0.0
+2024-09-19,Thursday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,388,384,0.28,119.84,117.64,2.2,1.84
+2024-09-19,Thursday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,435,434,0.44,223.52,198.29,25.23,11.29
+2024-09-19,Thursday,0,Regular,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,437,444,0.39,200.46,176.63,23.83,11.89
+2024-09-20,Friday,0,Regular,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,463,453,0.25,129.25,114.46,14.79,11.44
+2024-09-20,Friday,0,Regular,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,524,521,0.45,277.2,257.28,19.92,7.19
+2024-09-20,Friday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,527,539,0.42,246.54,246.54,0.0,0.0
+2024-09-21,Saturday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,261,253,0.28,79.24,77.4,1.84,2.32
+2024-09-21,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,346,336,0.46,177.56,168.63,8.93,5.03
+2024-09-21,Saturday,1,Weekend,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,295,293,0.45,153.9,150.21,3.69,2.4
+2024-09-22,Sunday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,245,250,0.28,79.8,73.87,5.93,7.43
+2024-09-22,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,323,326,0.48,169.92,169.92,0.0,0.0
+2024-09-22,Sunday,1,Weekend,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,282,271,0.45,137.7,135.55,2.15,1.56
+2024-09-23,Monday,0,Regular,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,447,452,0.25,120.75,116.52,4.23,3.5
+2024-09-23,Monday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,482,473,0.42,227.64,212.88,14.76,6.48
+2024-09-23,Monday,0,Regular,Cold,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,504,496,0.48,281.28,270.95,10.33,3.67
+2024-09-24,Tuesday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,485,486,0.28,150.08,149.34,0.74,0.49
+2024-09-24,Tuesday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,535,539,0.44,267.96,248.97,18.99,7.09
+2024-09-24,Tuesday,0,Regular,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,501,486,0.42,231.42,225.67,5.75,2.48
+2024-09-25,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,463,453,0.28,146.16,138.37,7.79,5.33
+2024-09-25,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,536,538,0.48,290.4,287.95,2.45,0.84
+2024-09-25,Wednesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,526,530,0.42,250.32,234.64,15.68,6.26
+2024-09-26,Thursday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,554,550,0.38,245.48,239.07,6.41,2.61
+2024-09-26,Thursday,0,Regular,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,499,509,0.38,213.56,194.22,19.34,9.06
+2024-09-26,Thursday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,570,578,0.35,233.45,207.61,25.84,11.07
+2024-09-27,Friday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,471,463,0.35,192.85,177.45,15.4,7.99
+2024-09-27,Friday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,430,415,0.38,187.72,158.55,29.17,15.54
+2024-09-27,Friday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,508,509,0.4,219.6,216.48,3.12,1.42
+2024-09-28,Saturday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,228,226,0.35,91.35,87.42,3.93,4.3
+2024-09-28,Saturday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,328,332,0.38,137.94,126.01,11.93,8.65
+2024-09-28,Saturday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,240,242,0.48,133.44,131.37,2.07,1.55
+2024-09-29,Sunday,1,Weekend,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,331,334,0.35,128.8,128.8,0.0,0.0
+2024-09-29,Sunday,1,Weekend,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,405,411,0.5,221.0,221.0,0.0,0.0
+2024-09-29,Sunday,1,Weekend,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,310,300,0.48,161.76,161.76,0.0,0.0
+2024-09-30,Monday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,465,472,0.25,126.0,119.34,6.66,5.29
+2024-09-30,Monday,0,Regular,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,552,563,0.48,289.92,289.92,0.0,0.0
+2024-09-30,Monday,0,Regular,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,496,489,0.42,229.32,217.46,11.86,5.17
+2024-10-01,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,450,451,0.38,189.24,189.24,0.0,0.0
+2024-10-01,Tuesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,505,516,0.48,265.92,265.92,0.0,0.0
+2024-10-01,Tuesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,468,474,0.45,246.6,240.41,6.19,2.51
+2024-10-02,Wednesday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,411,403,0.25,117.25,103.62,13.63,11.62
+2024-10-02,Wednesday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,433,418,0.44,223.96,191.5,32.46,14.49
+2024-10-02,Wednesday,0,Regular,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,483,479,0.35,193.55,167.7,25.85,13.36
+2024-10-03,Thursday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,418,405,0.33,156.42,153.91,2.51,1.6
+2024-10-03,Thursday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,442,453,0.44,215.16,213.75,1.41,0.66
+2024-10-03,Thursday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,498,495,0.47,266.02,257.23,8.79,3.3
+2024-10-04,Friday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,455,450,0.3,160.2,151.22,8.98,5.61
+2024-10-04,Friday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,492,503,0.42,239.4,216.97,22.43,9.37
+2024-10-04,Friday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,544,547,0.42,257.46,245.5,11.96,4.65
+2024-10-05,Saturday,1,Weekend,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,258,261,0.33,99.0,97.92,1.08,1.09
+2024-10-05,Saturday,1,Weekend,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,300,305,0.42,145.74,131.33,14.41,9.89
+2024-10-05,Saturday,1,Weekend,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,206,201,0.39,89.7,78.64,11.06,12.33
+2024-10-06,Sunday,1,Weekend,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,285,272,0.35,111.65,108.05,3.6,3.22
+2024-10-06,Sunday,1,Weekend,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,360,350,0.44,178.2,162.81,15.39,8.64
+2024-10-06,Sunday,1,Weekend,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,268,276,0.4,122.8,119.08,3.72,3.03
+2024-10-07,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,453,446,0.33,164.34,164.34,0.0,0.0
+2024-10-07,Monday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,510,506,0.46,256.68,245.42,11.26,4.39
+2024-10-07,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,543,549,0.45,275.85,270.86,4.99,1.81
+2024-10-08,Tuesday,0,Regular,Cold,Breakfast,Oats Porridge,Continental,2.2,650,435,439,0.22,106.26,97.15,9.11,8.57
+2024-10-08,Tuesday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,491,500,0.42,241.5,216.05,25.45,10.54
+2024-10-08,Tuesday,0,Regular,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,576,565,0.47,293.75,293.75,0.0,0.0
+2024-10-09,Wednesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,414,426,0.25,118.75,106.34,12.41,10.45
+2024-10-09,Wednesday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,510,509,0.45,254.7,248.41,6.29,2.47
+2024-10-09,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,458,461,0.39,194.61,180.45,14.16,7.28
+2024-10-10,Thursday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,469,469,0.35,192.85,182.3,10.55,5.47
+2024-10-10,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,528,519,0.5,296.0,296.0,0.0,0.0
+2024-10-10,Thursday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,539,532,0.35,212.1,188.11,23.99,11.31
+2024-10-11,Friday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,456,449,0.22,116.38,97.33,19.05,16.37
+2024-10-11,Friday,0,Regular,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,499,509,0.38,222.68,187.03,35.65,16.01
+2024-10-11,Friday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,571,569,0.48,309.6,309.6,0.0,0.0
+2024-10-12,Saturday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,263,263,0.33,96.03,96.03,0.0,0.0
+2024-10-12,Saturday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,379,386,0.48,199.2,199.2,0.0,0.0
+2024-10-12,Saturday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,237,242,0.35,90.3,86.45,3.85,4.26
+2024-10-13,Sunday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,237,230,0.25,66.0,58.23,7.77,11.77
+2024-10-13,Sunday,1,Weekend,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,326,330,0.44,157.52,155.44,2.08,1.32
+2024-10-13,Sunday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,205,214,0.39,88.53,83.59,4.94,5.58
+2024-10-14,Monday,0,Regular,Overcast,Breakfast,Aloo Paratha,North Indian,4.7,650,507,504,0.38,219.64,216.38,3.26,1.48
+2024-10-14,Monday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,534,539,0.5,309.5,302.44,7.06,2.28
+2024-10-14,Monday,0,Regular,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,495,492,0.39,224.64,189.25,35.39,15.75
+2024-10-15,Tuesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,457,464,0.35,176.75,176.75,0.0,0.0
+2024-10-15,Tuesday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,475,484,0.42,232.26,210.15,22.11,9.52
+2024-10-15,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,477,476,0.4,213.6,197.07,16.53,7.74
+2024-10-16,Wednesday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,464,472,0.33,175.89,173.33,2.56,1.46
+2024-10-16,Wednesday,0,Regular,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,500,488,0.5,271.5,271.5,0.0,0.0
+2024-10-16,Wednesday,0,Regular,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,472,481,0.4,211.2,205.85,5.35,2.53
+2024-10-17,Thursday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,393,390,0.28,122.08,116.72,5.36,4.39
+2024-10-17,Thursday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,434,423,0.42,199.08,188.73,10.35,5.2
+2024-10-17,Thursday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,458,454,0.45,240.3,227.9,12.4,5.16
+2024-10-18,Friday,0,Regular,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,465,467,0.25,130.5,122.14,8.36,6.41
+2024-10-18,Friday,0,Regular,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,508,507,0.5,290.0,289.03,0.97,0.33
+2024-10-18,Friday,0,Regular,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,493,498,0.4,225.2,207.68,17.52,7.78
+2024-10-19,Saturday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,167,161,0.22,40.92,34.27,6.65,16.25
+2024-10-19,Saturday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,277,278,0.42,134.82,124.1,10.72,7.95
+2024-10-19,Saturday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,189,191,0.35,71.4,68.94,2.46,3.45
+2024-10-20,Sunday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,302,312,0.3,100.5,100.5,0.0,0.0
+2024-10-20,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,400,391,0.48,215.04,214.26,0.78,0.36
+2024-10-20,Sunday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,247,254,0.42,119.28,114.94,4.34,3.64
+2024-10-21,Monday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,474,475,0.38,208.24,208.24,0.0,0.0
+2024-10-21,Monday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,440,448,0.42,209.16,193.45,15.71,7.51
+2024-10-21,Monday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,545,535,0.47,280.12,275.75,4.37,1.56
+2024-10-22,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,482,473,0.33,176.88,174.37,2.51,1.42
+2024-10-22,Tuesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,473,461,0.48,251.52,246.84,4.68,1.86
+2024-10-22,Tuesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,528,520,0.42,241.5,230.39,11.11,4.6
+2024-10-23,Wednesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,423,419,0.22,104.72,92.13,12.59,12.02
+2024-10-23,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,422,431,0.44,217.8,197.1,20.7,9.5
+2024-10-23,Wednesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,499,501,0.48,269.76,267.78,1.98,0.73
+2024-10-24,Thursday,0,Regular,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,392,401,0.22,99.22,86.02,13.2,13.3
+2024-10-24,Thursday,0,Regular,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,509,495,0.52,290.68,290.68,0.0,0.0
+2024-10-24,Thursday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,556,547,0.45,281.7,279.84,1.86,0.66
+2024-10-25,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,481,489,0.33,186.12,183.84,2.28,1.23
+2024-10-25,Friday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,452,446,0.42,208.74,199.54,9.2,4.41
+2024-10-25,Friday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,529,517,0.48,279.84,279.84,0.0,0.0
+2024-10-26,Saturday,1,Weekend,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,178,188,0.25,49.0,49.0,0.0,0.0
+2024-10-26,Saturday,1,Weekend,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,326,315,0.52,189.28,183.35,5.93,3.13
+2024-10-26,Saturday,1,Weekend,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,229,235,0.47,122.67,122.67,0.0,0.0
+2024-10-27,Sunday,1,Weekend,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,330,319,0.3,113.7,107.13,6.57,5.78
+2024-10-27,Sunday,1,Weekend,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,463,458,0.5,272.5,263.19,9.31,3.42
+2024-10-27,Sunday,1,Weekend,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,339,338,0.48,187.2,179.0,8.2,4.38
+2024-10-28,Monday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,538,538,0.35,216.65,211.56,5.09,2.35
+2024-10-28,Monday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,515,505,0.52,303.68,297.64,6.04,1.99
+2024-10-28,Monday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,528,539,0.42,252.42,250.29,2.13,0.84
+2024-10-29,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,432,425,0.38,185.82,182.37,3.45,1.86
+2024-10-29,Tuesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,443,428,0.38,191.9,159.36,32.54,16.96
+2024-10-29,Tuesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,454,462,0.4,197.2,197.2,0.0,0.0
+2024-10-30,Wednesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,497,499,0.33,179.52,179.52,0.0,0.0
+2024-10-30,Wednesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,480,468,0.38,198.74,177.4,21.34,10.74
+2024-10-30,Wednesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,583,572,0.45,288.0,282.59,5.41,1.88
+2024-10-31,Thursday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,440,451,0.3,147.6,147.6,0.0,0.0
+2024-10-31,Thursday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,403,395,0.42,192.78,168.6,24.18,12.54
+2024-10-31,Thursday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,508,519,0.47,259.44,259.44,0.0,0.0
+2024-11-01,Friday,0,Exam,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,559,569,0.38,244.34,244.34,0.0,0.0
+2024-11-01,Friday,0,Exam,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,527,535,0.42,240.24,231.49,8.75,3.64
+2024-11-01,Friday,0,Exam,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,588,576,0.47,300.8,298.84,1.96,0.65
+2024-11-02,Saturday,1,Exam,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,333,338,0.33,129.03,127.32,1.71,1.33
+2024-11-02,Saturday,1,Exam,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,462,471,0.38,200.64,175.31,25.33,12.62
+2024-11-02,Saturday,1,Exam,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,366,364,0.42,179.34,162.67,16.67,9.3
+2024-11-03,Sunday,1,Exam,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,369,371,0.35,152.25,144.99,7.26,4.77
+2024-11-03,Sunday,1,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,498,500,0.44,258.28,232.21,26.07,10.09
+2024-11-03,Sunday,1,Exam,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,294,299,0.35,115.5,106.7,8.8,7.62
+2024-11-04,Monday,0,Exam,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,524,526,0.28,171.92,157.48,14.44,8.4
+2024-11-04,Monday,0,Exam,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,587,584,0.52,329.16,329.16,0.0,0.0
+2024-11-04,Monday,0,Exam,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,574,575,0.35,219.45,207.17,12.28,5.6
+2024-11-05,Tuesday,0,Exam,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,493,478,0.28,159.6,148.64,10.96,6.87
+2024-11-05,Tuesday,0,Exam,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,512,513,0.42,244.02,230.02,14.0,5.74
+2024-11-05,Tuesday,0,Exam,Cold,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,499,498,0.47,261.32,257.07,4.25,1.63
+2024-11-06,Wednesday,0,Exam,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,503,497,0.28,153.16,150.01,3.15,2.06
+2024-11-06,Wednesday,0,Exam,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,575,583,0.46,293.94,288.82,5.12,1.74
+2024-11-06,Wednesday,0,Exam,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,604,611,0.42,291.48,283.1,8.38,2.87
+2024-11-07,Thursday,0,Exam,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,540,543,0.3,180.9,180.9,0.0,0.0
+2024-11-07,Thursday,0,Exam,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,521,532,0.44,257.4,255.57,1.83,0.71
+2024-11-07,Thursday,0,Exam,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,589,581,0.45,306.0,299.87,6.13,2.0
+2024-11-08,Friday,0,Exam,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,562,556,0.33,209.88,206.81,3.07,1.46
+2024-11-08,Friday,0,Exam,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,586,593,0.5,322.5,322.5,0.0,0.0
+2024-11-08,Friday,0,Exam,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,631,630,0.39,283.92,249.76,34.16,12.03
+2024-11-09,Saturday,1,Exam,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,280,269,0.22,68.42,58.03,10.39,15.19
+2024-11-09,Saturday,1,Exam,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,491,484,0.48,256.32,256.32,0.0,0.0
+2024-11-09,Saturday,1,Exam,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,375,384,0.48,196.8,196.8,0.0,0.0
+2024-11-10,Sunday,1,Exam,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,432,440,0.28,136.92,131.64,5.28,3.86
+2024-11-10,Sunday,1,Exam,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,570,565,0.42,274.68,248.35,26.33,9.59
+2024-11-10,Sunday,1,Exam,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,462,460,0.45,231.75,229.24,2.51,1.08
+2024-11-11,Monday,0,Exam,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,465,461,0.22,116.6,102.58,14.02,12.02
+2024-11-11,Monday,0,Exam,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,589,588,0.52,331.76,331.76,0.0,0.0
+2024-11-11,Monday,0,Exam,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,602,591,0.47,326.65,316.98,9.67,2.96
+2024-11-12,Tuesday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,478,490,0.25,139.0,123.14,15.86,11.41
+2024-11-12,Tuesday,0,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,506,494,0.44,246.84,231.33,15.51,6.28
+2024-11-12,Tuesday,0,Exam,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,469,471,0.35,180.6,166.3,14.3,7.92
+2024-11-13,Wednesday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,487,476,0.25,139.75,122.34,17.41,12.46
+2024-11-13,Wednesday,0,Exam,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,492,498,0.38,211.66,184.19,27.47,12.98
+2024-11-13,Wednesday,0,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,553,563,0.45,285.75,281.8,3.95,1.38
+2024-11-14,Thursday,0,Exam,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,478,471,0.3,164.1,159.21,4.89,2.98
+2024-11-14,Thursday,0,Exam,Cold,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,538,523,0.44,262.24,250.6,11.64,4.44
+2024-11-14,Thursday,0,Exam,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,518,515,0.42,245.7,237.19,8.51,3.46
+2024-11-15,Friday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,475,465,0.25,130.5,121.6,8.9,6.82
+2024-11-15,Friday,0,Exam,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,510,511,0.48,271.68,271.68,0.0,0.0
+2024-11-15,Friday,0,Exam,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,500,496,0.39,223.86,194.08,29.78,13.3
+2024-11-16,Saturday,1,Exam,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,316,302,0.25,90.25,78.57,11.68,12.94
+2024-11-16,Saturday,1,Exam,Cold,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,566,559,0.48,299.52,299.52,0.0,0.0
+2024-11-16,Saturday,1,Exam,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,388,375,0.42,187.74,170.93,16.81,8.95
+2024-11-17,Sunday,1,Exam,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,370,362,0.33,138.6,135.42,3.18,2.29
+2024-11-17,Sunday,1,Exam,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,542,537,0.42,255.78,230.03,25.75,10.07
+2024-11-17,Sunday,1,Exam,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,307,309,0.39,137.28,119.8,17.48,12.73
+2024-11-18,Monday,0,Exam,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,525,523,0.25,154.75,136.84,17.91,11.57
+2024-11-18,Monday,0,Exam,Rainy,Lunch,Chole Bhature,North Indian Veg,4.7,650,578,581,0.5,338.5,325.66,12.84,3.79
+2024-11-18,Monday,0,Exam,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,565,573,0.4,246.4,239.07,7.33,2.97
+2024-11-19,Tuesday,0,Exam,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,488,486,0.22,126.06,103.73,22.33,17.71
+2024-11-19,Tuesday,0,Exam,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,529,520,0.42,241.92,223.44,18.48,7.64
+2024-11-19,Tuesday,0,Exam,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,630,634,0.48,334.56,334.56,0.0,0.0
+2024-11-20,Wednesday,0,Exam,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,451,438,0.33,170.94,164.28,6.66,3.9
+2024-11-20,Wednesday,0,Exam,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,544,540,0.52,310.44,310.44,0.0,0.0
+2024-11-20,Wednesday,0,Exam,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,499,490,0.42,231.0,221.96,9.04,3.91
+2024-11-21,Thursday,0,Exam,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,496,502,0.38,221.92,218.89,3.03,1.37
+2024-11-21,Thursday,0,Exam,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,515,514,0.45,270.0,257.53,12.47,4.62
+2024-11-21,Thursday,0,Exam,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,567,559,0.35,222.6,200.07,22.53,10.12
+2024-11-22,Friday,0,Exam,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,492,496,0.33,190.41,186.97,3.44,1.81
+2024-11-22,Friday,0,Exam,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,542,541,0.48,292.8,292.8,0.0,0.0
+2024-11-22,Friday,0,Exam,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,565,562,0.47,312.55,288.53,24.02,7.69
+2024-11-23,Saturday,1,Exam,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,342,341,0.3,114.6,111.53,3.07,2.68
+2024-11-23,Saturday,1,Exam,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,488,486,0.42,227.22,217.83,9.39,4.13
+2024-11-23,Saturday,1,Exam,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,345,334,0.39,151.32,132.96,18.36,12.13
+2024-11-24,Sunday,1,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,366,373,0.28,116.2,112.54,3.66,3.15
+2024-11-24,Sunday,1,Exam,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,454,444,0.44,224.4,212.9,11.5,5.12
+2024-11-24,Sunday,1,Exam,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,392,379,0.47,203.51,201.55,1.96,0.96
+2024-11-25,Monday,0,Exam,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,544,531,0.33,195.69,195.69,0.0,0.0
+2024-11-25,Monday,0,Exam,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,484,491,0.44,238.04,234.07,3.97,1.67
+2024-11-25,Monday,0,Exam,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,561,551,0.4,250.8,230.72,20.08,8.01
+2024-11-26,Tuesday,0,Exam,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,500,512,0.25,136.75,133.14,3.61,2.64
+2024-11-26,Tuesday,0,Exam,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,569,555,0.5,319.0,310.96,8.04,2.52
+2024-11-26,Tuesday,0,Exam,Cold,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,619,613,0.48,339.36,326.33,13.03,3.84
+2024-11-27,Wednesday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,465,450,0.25,130.75,116.92,13.83,10.58
+2024-11-27,Wednesday,0,Exam,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,527,527,0.48,278.88,278.88,0.0,0.0
+2024-11-27,Wednesday,0,Exam,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,522,521,0.42,238.14,238.14,0.0,0.0
+2024-11-28,Thursday,0,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,457,468,0.25,132.75,115.94,16.81,12.66
+2024-11-28,Thursday,0,Exam,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,481,477,0.5,260.5,260.5,0.0,0.0
+2024-11-28,Thursday,0,Exam,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,510,514,0.39,220.74,207.92,12.82,5.81
+2024-11-29,Friday,0,Exam,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,434,428,0.28,138.6,131.28,7.32,5.28
+2024-11-29,Friday,0,Exam,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,553,561,0.5,314.5,314.5,0.0,0.0
+2024-11-29,Friday,0,Exam,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,563,558,0.45,282.6,280.91,1.69,0.6
+2024-11-30,Saturday,1,Exam,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,255,255,0.25,69.5,65.64,3.86,5.55
+2024-11-30,Saturday,1,Exam,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,433,431,0.42,205.8,190.75,15.05,7.31
+2024-11-30,Saturday,1,Exam,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,269,272,0.4,124.0,115.52,8.48,6.84
+2024-12-01,Sunday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,302,312,0.33,117.15,115.85,1.3,1.11
+2024-12-01,Sunday,1,Weekend,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,360,363,0.44,186.56,168.86,17.7,9.49
+2024-12-01,Sunday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,297,297,0.47,157.92,157.45,0.47,0.3
+2024-12-02,Monday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,405,399,0.25,119.25,98.56,20.69,17.35
+2024-12-02,Monday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,500,510,0.48,261.6,261.6,0.0,0.0
+2024-12-02,Monday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,539,537,0.48,289.92,289.21,0.71,0.24
+2024-12-03,Tuesday,0,Regular,Rainy,Breakfast,Idli Sambhar,South Indian,4.2,650,524,531,0.3,174.0,174.0,0.0,0.0
+2024-12-03,Tuesday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,500,502,0.42,233.52,213.45,20.07,8.59
+2024-12-03,Tuesday,0,Regular,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,520,517,0.39,233.61,205.45,28.16,12.05
+2024-12-04,Wednesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,462,468,0.35,182.35,182.35,0.0,0.0
+2024-12-04,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,480,480,0.48,252.0,252.0,0.0,0.0
+2024-12-04,Wednesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,496,491,0.48,267.84,267.84,0.0,0.0
+2024-12-05,Thursday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,438,446,0.25,125.5,113.88,11.62,9.26
+2024-12-05,Thursday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,509,515,0.48,271.68,271.68,0.0,0.0
+2024-12-05,Thursday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,550,539,0.48,292.32,285.59,6.73,2.3
+2024-12-06,Friday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,463,467,0.22,113.96,101.48,12.48,10.95
+2024-12-06,Friday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,569,564,0.42,274.68,243.58,31.1,11.32
+2024-12-06,Friday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,615,607,0.45,309.15,309.15,0.0,0.0
+2024-12-07,Saturday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,193,203,0.28,58.52,58.52,0.0,0.0
+2024-12-07,Saturday,1,Weekend,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,317,302,0.45,165.15,154.69,10.46,6.33
+2024-12-07,Saturday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,209,209,0.47,113.27,110.16,3.11,2.75
+2024-12-08,Sunday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,191,192,0.22,48.18,40.55,7.63,15.84
+2024-12-08,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,375,382,0.48,209.76,204.44,5.32,2.54
+2024-12-08,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,275,281,0.35,112.0,101.13,10.87,9.71
+2024-12-09,Monday,0,Regular,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,452,458,0.3,156.3,147.48,8.82,5.64
+2024-12-09,Monday,0,Regular,Overcast,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,467,458,0.42,217.98,196.89,21.09,9.68
+2024-12-09,Monday,0,Regular,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,473,482,0.35,185.85,165.84,20.01,10.77
+2024-12-10,Tuesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,475,477,0.3,161.1,155.18,5.92,3.67
+2024-12-10,Tuesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,455,448,0.44,218.68,212.55,6.13,2.8
+2024-12-10,Tuesday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,463,453,0.35,176.05,160.58,15.47,8.79
+2024-12-11,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,404,410,0.28,122.64,122.64,0.0,0.0
+2024-12-11,Wednesday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,476,466,0.45,246.15,238.53,7.62,3.1
+2024-12-11,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,501,508,0.39,219.57,198.78,20.79,9.47
+2024-12-12,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,419,421,0.22,100.1,93.3,6.8,6.79
+2024-12-12,Thursday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,499,486,0.52,301.08,291.6,9.48,3.15
+2024-12-12,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,465,459,0.42,224.28,211.41,12.87,5.74
+2024-12-13,Friday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,421,425,0.28,130.2,128.02,2.18,1.67
+2024-12-13,Friday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,516,522,0.5,287.0,287.0,0.0,0.0
+2024-12-13,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,475,460,0.35,180.6,158.23,22.37,12.39
+2024-12-14,Saturday,1,Weekend,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,290,294,0.35,115.15,115.15,0.0,0.0
+2024-12-14,Saturday,1,Weekend,Overcast,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,345,355,0.38,142.88,133.74,9.14,6.4
+2024-12-14,Saturday,1,Weekend,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,294,296,0.45,148.95,148.95,0.0,0.0
+2024-12-15,Sunday,1,Weekend,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,256,253,0.28,77.84,75.55,2.29,2.94
+2024-12-15,Sunday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,298,296,0.38,128.44,110.07,18.37,14.3
+2024-12-15,Sunday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,180,186,0.39,80.34,74.45,5.89,7.33
+2024-12-16,Monday,0,Regular,Overcast,Breakfast,Idli Sambhar,South Indian,4.2,650,484,483,0.3,161.4,156.18,5.22,3.23
+2024-12-16,Monday,0,Regular,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,493,490,0.52,278.2,278.2,0.0,0.0
+2024-12-16,Monday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,555,566,0.48,297.6,297.6,0.0,0.0
+2024-12-17,Tuesday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,393,396,0.22,100.98,86.26,14.72,14.58
+2024-12-17,Tuesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,538,544,0.48,282.72,282.72,0.0,0.0
+2024-12-17,Tuesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,534,533,0.42,246.54,245.1,1.44,0.58
+2024-12-18,Wednesday,0,Regular,Rainy,Breakfast,Masala Dosa,South Indian,4.8,650,490,488,0.33,186.12,186.12,0.0,0.0
+2024-12-18,Wednesday,0,Regular,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,532,536,0.45,282.15,267.31,14.84,5.26
+2024-12-18,Wednesday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,559,545,0.47,293.28,287.64,5.64,1.92
+2024-12-19,Thursday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,469,457,0.22,120.12,100.94,19.18,15.97
+2024-12-19,Thursday,0,Regular,Rainy,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,486,489,0.46,250.24,240.03,10.21,4.08
+2024-12-19,Thursday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,513,511,0.42,244.44,234.74,9.7,3.97
+2024-12-20,Friday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,501,497,0.38,221.54,209.87,11.67,5.27
+2024-12-20,Friday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,468,455,0.5,267.5,252.67,14.83,5.54
+2024-12-20,Friday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,524,513,0.42,239.4,235.4,4.0,1.67
+2024-12-21,Saturday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,220,218,0.22,55.22,46.97,8.25,14.94
+2024-12-21,Saturday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,302,301,0.38,128.06,111.13,16.93,13.22
+2024-12-21,Saturday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,241,244,0.42,114.24,112.51,1.73,1.51
+2024-12-22,Sunday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,241,227,0.25,70.75,58.0,12.75,18.02
+2024-12-22,Sunday,1,Weekend,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,324,324,0.44,167.64,148.38,19.26,11.49
+2024-12-22,Sunday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,253,265,0.39,116.22,106.32,9.9,8.52
+2024-12-23,Monday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,391,391,0.25,111.5,100.47,11.03,9.89
+2024-12-23,Monday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,508,510,0.45,265.05,253.08,11.97,4.52
+2024-12-23,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,560,562,0.45,291.6,284.29,7.31,2.51
+2024-12-24,Tuesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,461,457,0.33,178.86,174.32,4.54,2.54
+2024-12-24,Tuesday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,439,446,0.42,215.88,197.99,17.89,8.29
+2024-12-24,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,510,503,0.39,215.67,198.21,17.46,8.1
+2024-12-25,Wednesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,471,475,0.35,178.15,178.15,0.0,0.0
+2024-12-25,Wednesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,477,489,0.5,276.0,273.14,2.86,1.04
+2024-12-25,Wednesday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,458,470,0.4,202.4,200.88,1.52,0.75
+2024-12-26,Thursday,0,Regular,Cold,Breakfast,Masala Dosa,South Indian,4.8,650,452,451,0.33,166.32,166.32,0.0,0.0
+2024-12-26,Thursday,0,Regular,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,487,497,0.46,253.46,240.05,13.41,5.29
+2024-12-26,Thursday,0,Regular,Cold,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,577,581,0.45,304.65,288.97,15.68,5.15
+2024-12-27,Friday,0,Regular,Cold,Breakfast,Oats Porridge,Continental,2.2,650,404,410,0.22,99.88,89.32,10.56,10.57
+2024-12-27,Friday,0,Regular,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,487,498,0.46,249.32,248.9,0.42,0.17
+2024-12-27,Friday,0,Regular,Cold,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,557,543,0.48,292.8,292.8,0.0,0.0
+2024-12-28,Saturday,1,Weekend,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,282,274,0.22,69.3,59.94,9.36,13.51
+2024-12-28,Saturday,1,Weekend,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,366,367,0.52,222.04,212.73,9.31,4.19
+2024-12-28,Saturday,1,Weekend,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,284,290,0.48,151.2,151.2,0.0,0.0
+2024-12-29,Sunday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,264,276,0.25,74.0,71.97,2.03,2.74
+2024-12-29,Sunday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,355,348,0.42,172.62,150.15,22.47,13.02
+2024-12-29,Sunday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,252,261,0.4,115.6,108.42,7.18,6.21
+2024-12-30,Monday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,425,432,0.25,125.25,108.73,16.52,13.19
+2024-12-30,Monday,0,Regular,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,531,542,0.48,276.96,276.96,0.0,0.0
+2024-12-30,Monday,0,Regular,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,478,477,0.4,213.2,203.68,9.52,4.47
+2024-12-31,Tuesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,379,383,0.25,108.5,99.4,9.1,8.39
+2024-12-31,Tuesday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,494,482,0.45,241.65,241.65,0.0,0.0
+2024-12-31,Tuesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,506,511,0.42,241.5,238.66,2.84,1.18
+2025-01-01,Wednesday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,525,531,0.35,215.6,209.7,5.9,2.74
+2025-01-01,Wednesday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,567,574,0.42,278.46,255.11,23.35,8.39
+2025-01-01,Wednesday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,536,545,0.35,203.7,195.07,8.63,4.24
+2025-01-02,Thursday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,433,444,0.3,143.7,143.7,0.0,0.0
+2025-01-02,Thursday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,538,529,0.52,318.76,309.38,9.38,2.94
+2025-01-02,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,470,472,0.42,228.06,211.54,16.52,7.24
+2025-01-03,Friday,0,Regular,Cold,Breakfast,Masala Dosa,South Indian,4.8,650,464,450,0.33,166.32,166.32,0.0,0.0
+2025-01-03,Friday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,501,486,0.42,245.7,208.39,37.31,15.19
+2025-01-03,Friday,0,Regular,Cold,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,450,436,0.39,200.85,169.7,31.15,15.51
+2025-01-04,Saturday,1,Weekend,Cold,Breakfast,Upma & Chutney,South Indian,2.8,650,211,218,0.25,61.75,55.45,6.3,10.2
+2025-01-04,Saturday,1,Weekend,Cold,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,341,349,0.38,149.72,133.3,16.42,10.97
+2025-01-04,Saturday,1,Weekend,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,242,239,0.4,113.6,102.59,11.01,9.69
+2025-01-05,Sunday,1,Weekend,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,288,282,0.35,112.7,111.33,1.37,1.22
+2025-01-05,Sunday,1,Weekend,Rainy,Lunch,Rajma Chawal,North Indian Veg,4.4,650,386,398,0.45,203.85,195.01,8.84,4.34
+2025-01-05,Sunday,1,Weekend,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,314,308,0.42,150.78,137.72,13.06,8.66
+2025-01-06,Monday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,407,404,0.28,133.28,123.51,9.77,7.33
+2025-01-06,Monday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,443,448,0.44,218.68,206.46,12.22,5.59
+2025-01-06,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,467,475,0.45,247.5,237.33,10.17,4.11
+2025-01-07,Tuesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,450,452,0.33,174.57,172.53,2.04,1.17
+2025-01-07,Tuesday,0,Regular,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,456,442,0.48,243.36,243.36,0.0,0.0
+2025-01-07,Tuesday,0,Regular,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,471,481,0.42,226.38,219.27,7.11,3.14
+2025-01-08,Wednesday,0,Regular,Overcast,Breakfast,Upma & Chutney,South Indian,2.8,650,424,427,0.25,116.75,105.93,10.82,9.27
+2025-01-08,Wednesday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,533,518,0.5,300.0,299.68,0.32,0.11
+2025-01-08,Wednesday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,538,543,0.45,264.6,264.6,0.0,0.0
+2025-01-09,Thursday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,355,359,0.22,85.58,77.99,7.59,8.87
+2025-01-09,Thursday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,431,435,0.45,224.55,214.78,9.77,4.35
+2025-01-09,Thursday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,471,466,0.48,262.08,259.68,2.4,0.92
+2025-01-10,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,494,483,0.33,181.17,181.17,0.0,0.0
+2025-01-10,Friday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,517,520,0.46,260.82,251.59,9.23,3.54
+2025-01-10,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,463,461,0.35,177.45,161.06,16.39,9.24
+2025-01-11,Saturday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,162,150,0.25,46.75,38.47,8.28,17.71
+2025-01-11,Saturday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,290,275,0.38,128.44,100.62,27.82,21.66
+2025-01-11,Saturday,1,Weekend,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,200,187,0.45,103.5,95.23,8.27,7.99
+2025-01-12,Sunday,1,Weekend,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,268,275,0.22,64.24,58.12,6.12,9.53
+2025-01-12,Sunday,1,Weekend,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,353,351,0.42,163.38,150.73,12.65,7.74
+2025-01-12,Sunday,1,Weekend,Rainy,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,218,208,0.39,97.89,82.64,15.25,15.58
+2025-01-13,Monday,0,Regular,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,427,412,0.35,169.4,158.84,10.56,6.23
+2025-01-13,Monday,0,Regular,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,474,486,0.45,246.15,244.15,2.0,0.81
+2025-01-13,Monday,0,Regular,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,491,496,0.47,264.14,257.97,6.17,2.34
+2025-01-14,Tuesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,482,482,0.33,179.52,177.76,1.76,0.98
+2025-01-14,Tuesday,0,Regular,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,444,440,0.48,236.16,236.16,0.0,0.0
+2025-01-14,Tuesday,0,Regular,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,470,479,0.35,184.8,164.68,20.12,10.89
+2025-01-15,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,447,447,0.28,141.4,132.45,8.95,6.33
+2025-01-15,Wednesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,467,470,0.46,244.26,232.01,12.25,5.02
+2025-01-15,Wednesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,466,461,0.39,200.46,177.74,22.72,11.33
+2025-01-16,Thursday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,484,481,0.38,214.7,202.23,12.47,5.81
+2025-01-16,Thursday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,449,447,0.52,255.32,255.32,0.0,0.0
+2025-01-16,Thursday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,465,461,0.42,213.36,212.44,0.92,0.43
+2025-01-17,Friday,0,Regular,Cold,Breakfast,Poha & Jalebi,North Indian,3.9,650,449,435,0.28,144.48,128.81,15.67,10.85
+2025-01-17,Friday,0,Regular,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,477,476,0.5,268.5,264.72,3.78,1.41
+2025-01-17,Friday,0,Regular,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,467,461,0.35,186.2,165.12,21.08,11.32
+2025-01-18,Saturday,1,Weekend,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,313,315,0.28,101.92,93.42,8.5,8.34
+2025-01-18,Saturday,1,Weekend,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,440,431,0.52,260.52,258.6,1.92,0.74
+2025-01-18,Saturday,1,Weekend,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,240,238,0.35,96.6,82.53,14.07,14.57
+2025-01-19,Sunday,1,Weekend,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,296,299,0.25,86.5,75.73,10.77,12.45
+2025-01-19,Sunday,1,Weekend,Rainy,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,355,355,0.48,196.32,193.96,2.36,1.2
+2025-01-19,Sunday,1,Weekend,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,280,280,0.42,136.5,128.87,7.63,5.59
+2025-01-20,Monday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,439,424,0.3,151.2,139.46,11.74,7.76
+2025-01-20,Monday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,423,417,0.46,214.36,212.52,1.84,0.86
+2025-01-20,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,495,489,0.45,243.9,243.9,0.0,0.0
+2025-01-21,Tuesday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,521,510,0.38,231.04,218.28,12.76,5.52
+2025-01-21,Tuesday,0,Regular,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,539,546,0.44,271.04,261.29,9.75,3.6
+2025-01-21,Tuesday,0,Regular,Rainy,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,570,577,0.45,285.3,285.09,0.21,0.07
+2025-01-22,Wednesday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,427,437,0.25,117.5,112.43,5.07,4.31
+2025-01-22,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,490,476,0.44,243.76,228.42,15.34,6.29
+2025-01-22,Wednesday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,509,497,0.35,199.15,174.63,24.52,12.31
+2025-01-23,Thursday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,447,434,0.33,167.31,165.34,1.97,1.18
+2025-01-23,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,506,498,0.5,286.5,284.09,2.41,0.84
+2025-01-23,Thursday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,487,490,0.39,221.52,195.72,25.8,11.65
+2025-01-24,Friday,0,Regular,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,472,465,0.35,186.55,181.53,5.02,2.69
+2025-01-24,Friday,0,Regular,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,483,479,0.48,260.64,260.64,0.0,0.0
+2025-01-24,Friday,0,Regular,Overcast,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,516,523,0.48,280.32,280.32,0.0,0.0
+2025-01-25,Saturday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,308,315,0.35,124.95,124.95,0.0,0.0
+2025-01-25,Saturday,1,Weekend,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,362,361,0.45,177.3,177.3,0.0,0.0
+2025-01-25,Saturday,1,Weekend,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,259,246,0.47,132.54,127.94,4.6,3.47
+2025-01-26,Sunday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,196,201,0.22,46.64,43.2,3.44,7.38
+2025-01-26,Sunday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,366,364,0.5,205.5,205.5,0.0,0.0
+2025-01-26,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,202,187,0.35,82.25,64.79,17.46,21.23
+2025-01-27,Monday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,560,565,0.38,243.2,240.8,2.4,0.99
+2025-01-27,Monday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,585,588,0.52,332.28,332.28,0.0,0.0
+2025-01-27,Monday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,613,605,0.47,324.77,324.77,0.0,0.0
+2025-01-28,Tuesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,468,458,0.35,186.9,176.27,10.63,5.69
+2025-01-28,Tuesday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,457,447,0.42,223.02,197.8,25.22,11.31
+2025-01-28,Tuesday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,530,520,0.39,228.15,199.65,28.5,12.49
+2025-01-29,Wednesday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,444,435,0.35,176.4,166.27,10.13,5.74
+2025-01-29,Wednesday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,503,492,0.44,246.84,231.29,15.55,6.3
+2025-01-29,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,514,502,0.47,282.94,262.9,20.04,7.08
+2025-01-30,Thursday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,510,499,0.38,209.38,209.38,0.0,0.0
+2025-01-30,Thursday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,489,483,0.44,242.44,223.87,18.57,7.66
+2025-01-30,Thursday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,572,575,0.48,314.4,314.4,0.0,0.0
+2025-01-31,Friday,0,Regular,Cold,Breakfast,Poori Bhaji,North Indian,4.5,650,500,508,0.35,197.05,194.23,2.82,1.43
+2025-01-31,Friday,0,Regular,Cold,Lunch,Rajma Chawal,North Indian Veg,4.4,650,494,491,0.45,253.8,242.43,11.37,4.48
+2025-01-31,Friday,0,Regular,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,462,448,0.35,184.45,154.87,29.58,16.04
+2025-02-01,Saturday,1,Weekend,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,214,199,0.22,51.04,43.91,7.13,13.97
+2025-02-01,Saturday,1,Weekend,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,396,393,0.45,195.75,195.08,0.67,0.34
+2025-02-01,Saturday,1,Weekend,Overcast,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,254,240,0.4,118.8,100.38,18.42,15.51
+2025-02-02,Sunday,1,Weekend,Overcast,Breakfast,Poori Bhaji,North Indian,4.5,650,232,217,0.35,89.95,84.39,5.56,6.18
+2025-02-02,Sunday,1,Weekend,Overcast,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,352,339,0.52,201.24,201.24,0.0,0.0
+2025-02-02,Sunday,1,Weekend,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,250,260,0.39,109.59,100.57,9.02,8.23
+2025-02-03,Monday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,526,515,0.33,201.96,194.4,7.56,3.74
+2025-02-03,Monday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,492,492,0.5,289.5,278.85,10.65,3.68
+2025-02-03,Monday,0,Regular,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,459,462,0.35,185.5,158.68,26.82,14.46
+2025-02-04,Tuesday,0,Regular,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,438,437,0.38,191.52,190.52,1.0,0.52
+2025-02-04,Tuesday,0,Regular,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,469,480,0.5,262.0,262.0,0.0,0.0
+2025-02-04,Tuesday,0,Regular,Cold,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,548,542,0.45,286.65,271.76,14.89,5.19
+2025-02-05,Wednesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,491,480,0.3,162.9,162.63,0.27,0.17
+2025-02-05,Wednesday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,478,484,0.52,290.16,286.67,3.49,1.2
+2025-02-05,Wednesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,552,557,0.42,255.78,248.25,7.53,2.94
+2025-02-06,Thursday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,454,450,0.3,154.8,149.3,5.5,3.55
+2025-02-06,Thursday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,462,462,0.42,228.06,205.9,22.16,9.72
+2025-02-06,Thursday,0,Regular,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,467,470,0.35,176.75,163.11,13.64,7.72
+2025-02-07,Friday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,512,501,0.38,216.98,210.4,6.58,3.03
+2025-02-07,Friday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,475,471,0.44,226.6,218.33,8.27,3.65
+2025-02-07,Friday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,528,529,0.39,226.2,210.37,15.83,7.0
+2025-02-08,Saturday,1,Weekend,Rainy,Breakfast,Poha & Jalebi,North Indian,3.9,650,321,333,0.28,99.68,99.68,0.0,0.0
+2025-02-08,Saturday,1,Weekend,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,391,398,0.42,188.58,170.13,18.45,9.78
+2025-02-08,Saturday,1,Weekend,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,294,283,0.4,126.8,119.44,7.36,5.8
+2025-02-09,Sunday,1,Weekend,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,273,263,0.35,103.95,101.19,2.76,2.66
+2025-02-09,Sunday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,338,348,0.46,181.7,173.66,8.04,4.42
+2025-02-09,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,278,290,0.48,151.2,151.2,0.0,0.0
+2025-02-10,Monday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,527,515,0.38,232.56,226.5,6.06,2.61
+2025-02-10,Monday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,511,518,0.52,296.4,296.4,0.0,0.0
+2025-02-10,Monday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,521,516,0.4,228.4,215.13,13.27,5.81
+2025-02-11,Tuesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,502,491,0.28,161.28,147.44,13.84,8.58
+2025-02-11,Tuesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,465,452,0.46,239.66,227.42,12.24,5.11
+2025-02-11,Tuesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,509,518,0.45,258.3,258.3,0.0,0.0
+2025-02-12,Wednesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,455,441,0.33,168.96,168.96,0.0,0.0
+2025-02-12,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,445,451,0.48,230.88,230.88,0.0,0.0
+2025-02-12,Wednesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,539,530,0.45,275.85,264.26,11.59,4.2
+2025-02-13,Thursday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,496,489,0.28,162.96,147.17,15.79,9.69
+2025-02-13,Thursday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,545,554,0.5,314.0,309.27,4.73,1.51
+2025-02-13,Thursday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,474,485,0.4,215.6,198.82,16.78,7.78
+2025-02-14,Friday,0,Regular,Sunny,Breakfast,Poori Bhaji,North Indian,4.5,650,421,430,0.35,166.95,166.95,0.0,0.0
+2025-02-14,Friday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,509,510,0.45,266.85,255.31,11.54,4.32
+2025-02-14,Friday,0,Regular,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,471,470,0.39,210.6,181.18,29.42,13.97
+2025-02-15,Saturday,1,Weekend,Cold,Breakfast,Aloo Paratha,North Indian,4.7,650,275,267,0.38,117.04,116.44,0.6,0.51
+2025-02-15,Saturday,1,Weekend,Cold,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,360,348,0.44,179.08,163.19,15.89,8.87
+2025-02-15,Saturday,1,Weekend,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,281,283,0.35,113.05,97.16,15.89,14.06
+2025-02-16,Sunday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,260,254,0.38,113.24,111.24,2.0,1.77
+2025-02-16,Sunday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,334,328,0.46,180.78,162.0,18.78,10.39
+2025-02-16,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,215,226,0.48,119.52,119.52,0.0,0.0
+2025-02-17,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,465,453,0.33,171.6,170.32,1.28,0.75
+2025-02-17,Monday,0,Regular,Sunny,Lunch,Rajma Chawal,North Indian Veg,4.4,650,453,450,0.45,228.15,226.69,1.46,0.64
+2025-02-17,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,538,528,0.45,262.8,262.8,0.0,0.0
+2025-02-18,Tuesday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,474,485,0.38,202.16,202.16,0.0,0.0
+2025-02-18,Tuesday,0,Regular,Rainy,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,522,532,0.42,250.74,231.49,19.25,7.68
+2025-02-18,Tuesday,0,Regular,Rainy,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,558,555,0.42,275.94,252.84,23.1,8.37
+2025-02-19,Wednesday,0,Regular,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,417,417,0.3,137.7,137.7,0.0,0.0
+2025-02-19,Wednesday,0,Regular,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,445,431,0.48,248.16,235.41,12.75,5.14
+2025-02-19,Wednesday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,539,536,0.45,276.3,269.09,7.21,2.61
+2025-02-20,Thursday,0,Regular,Rainy,Breakfast,Oats Porridge,Continental,2.2,650,412,421,0.22,102.52,90.91,11.61,11.32
+2025-02-20,Thursday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,511,517,0.52,300.04,300.04,0.0,0.0
+2025-02-20,Thursday,0,Regular,Rainy,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,517,529,0.4,234.4,216.9,17.5,7.47
+2025-02-21,Friday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,468,463,0.3,163.5,152.59,10.91,6.67
+2025-02-21,Friday,0,Regular,Cold,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,481,483,0.48,264.48,264.48,0.0,0.0
+2025-02-21,Friday,0,Regular,Cold,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,473,471,0.39,201.63,188.27,13.36,6.63
+2025-02-22,Saturday,1,Weekend,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,252,254,0.33,95.37,95.37,0.0,0.0
+2025-02-22,Saturday,1,Weekend,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,352,342,0.52,206.44,202.29,4.15,2.01
+2025-02-22,Saturday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,245,242,0.42,117.18,109.28,7.9,6.74
+2025-02-23,Sunday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,288,277,0.3,100.5,90.82,9.68,9.63
+2025-02-23,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,419,424,0.48,223.68,223.68,0.0,0.0
+2025-02-23,Sunday,1,Weekend,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,296,294,0.35,115.5,104.51,10.99,9.52
+2025-02-24,Monday,0,Regular,Rainy,Breakfast,Upma & Chutney,South Indian,2.8,650,422,429,0.25,114.5,107.93,6.57,5.74
+2025-02-24,Monday,0,Regular,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,475,477,0.44,232.32,223.24,9.08,3.91
+2025-02-24,Monday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,548,549,0.48,307.68,294.61,13.07,4.25
+2025-02-25,Tuesday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,518,515,0.35,201.6,197.53,4.07,2.02
+2025-02-25,Tuesday,0,Regular,Rainy,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,532,538,0.52,304.2,304.2,0.0,0.0
+2025-02-25,Tuesday,0,Regular,Rainy,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,591,586,0.48,311.04,311.04,0.0,0.0
+2025-02-26,Wednesday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,539,549,0.33,193.38,193.38,0.0,0.0
+2025-02-26,Wednesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,494,480,0.46,252.08,239.0,13.08,5.19
+2025-02-26,Wednesday,0,Regular,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,541,549,0.48,305.28,301.75,3.53,1.16
+2025-02-27,Thursday,0,Regular,Rainy,Breakfast,Poori Bhaji,North Indian,4.5,650,482,492,0.35,191.1,191.1,0.0,0.0
+2025-02-27,Thursday,0,Regular,Rainy,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,553,558,0.44,282.48,261.79,20.69,7.32
+2025-02-27,Thursday,0,Regular,Rainy,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,528,530,0.35,205.1,185.66,19.44,9.48
+2025-02-28,Friday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,480,470,0.33,184.8,177.69,7.11,3.85
+2025-02-28,Friday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,490,481,0.5,280.5,276.92,3.58,1.28
+2025-02-28,Friday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,474,479,0.42,225.54,219.46,6.08,2.7
+2025-03-01,Saturday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,259,245,0.25,73.25,61.85,11.4,15.56
+2025-03-01,Saturday,1,Weekend,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,358,366,0.5,205.5,204.96,0.54,0.26
+2025-03-01,Saturday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,250,262,0.42,121.8,116.41,5.39,4.43
+2025-03-02,Sunday,1,Weekend,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,174,164,0.22,42.24,35.65,6.59,15.6
+2025-03-02,Sunday,1,Weekend,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,263,252,0.38,109.82,93.15,16.67,15.18
+2025-03-02,Sunday,1,Weekend,Sunny,Dinner,Pav Bhaji & Pulao,Fast Food Style,4.7,650,214,214,0.48,116.64,115.89,0.75,0.64
+2025-03-03,Monday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,444,429,0.28,137.2,132.4,4.8,3.5
+2025-03-03,Monday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,525,511,0.5,308.5,289.01,19.49,6.32
+2025-03-03,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,500,487,0.45,249.75,244.11,5.64,2.26
+2025-03-04,Tuesday,0,Regular,Cold,Breakfast,Poori Bhaji,North Indian,4.5,650,452,439,0.35,177.1,175.22,1.88,1.06
+2025-03-04,Tuesday,0,Regular,Cold,Lunch,Chole Bhature,North Indian Veg,4.7,650,448,451,0.5,258.0,258.0,0.0,0.0
+2025-03-04,Tuesday,0,Regular,Cold,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,481,484,0.4,226.0,209.07,16.93,7.49
+2025-03-05,Wednesday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,446,455,0.28,144.76,136.8,7.96,5.5
+2025-03-05,Wednesday,0,Regular,Overcast,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,455,463,0.38,190.76,173.01,17.75,9.3
+2025-03-05,Wednesday,0,Regular,Overcast,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,474,465,0.47,261.79,243.98,17.81,6.8
+2025-03-06,Thursday,0,Regular,Rainy,Breakfast,Aloo Paratha,North Indian,4.7,650,503,510,0.38,224.2,217.25,6.95,3.1
+2025-03-06,Thursday,0,Regular,Rainy,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,472,464,0.38,210.9,178.22,32.68,15.5
+2025-03-06,Thursday,0,Regular,Rainy,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,539,546,0.47,282.47,282.47,0.0,0.0
+2025-03-07,Friday,0,Regular,Cold,Breakfast,Idli Sambhar,South Indian,4.2,650,501,507,0.3,174.3,163.55,10.75,6.17
+2025-03-07,Friday,0,Regular,Cold,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,469,466,0.46,239.66,236.98,2.68,1.12
+2025-03-07,Friday,0,Regular,Cold,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,527,533,0.35,201.25,191.78,9.47,4.71
+2025-03-08,Saturday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,319,312,0.38,134.52,134.52,0.0,0.0
+2025-03-08,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,354,366,0.46,189.98,185.69,4.29,2.26
+2025-03-08,Saturday,1,Weekend,Sunny,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,225,235,0.39,101.4,92.23,9.17,9.04
+2025-03-09,Sunday,1,Weekend,Overcast,Breakfast,Oats Porridge,Continental,2.2,650,218,218,0.22,53.9,46.85,7.05,13.08
+2025-03-09,Sunday,1,Weekend,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,311,322,0.44,149.16,148.14,1.02,0.68
+2025-03-09,Sunday,1,Weekend,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,204,200,0.35,79.8,71.38,8.42,10.55
+2025-03-10,Monday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,437,423,0.33,164.67,156.2,8.47,5.14
+2025-03-10,Monday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,535,524,0.52,300.04,300.04,0.0,0.0
+2025-03-10,Monday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,469,456,0.35,178.85,158.16,20.69,11.57
+2025-03-11,Tuesday,0,Regular,Overcast,Breakfast,Masala Dosa,South Indian,4.8,650,513,525,0.33,192.72,192.72,0.0,0.0
+2025-03-11,Tuesday,0,Regular,Overcast,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,487,499,0.44,246.84,230.9,15.94,6.46
+2025-03-11,Tuesday,0,Regular,Overcast,Dinner,Baingan Bharta & Dal Tadka,Everyday Veg,2.7,650,508,503,0.39,229.71,194.98,34.73,15.12
+2025-03-12,Wednesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,505,508,0.38,211.28,211.28,0.0,0.0
+2025-03-12,Wednesday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,510,509,0.46,257.6,255.23,2.37,0.92
+2025-03-12,Wednesday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,481,485,0.47,253.8,252.02,1.78,0.7
+2025-03-13,Thursday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,372,379,0.25,105.25,98.01,7.24,6.88
+2025-03-13,Thursday,0,Regular,Sunny,Lunch,Chicken Biryani / Veg Biryani,Special / Biryani,4.9,650,502,502,0.52,284.96,284.96,0.0,0.0
+2025-03-13,Thursday,0,Regular,Sunny,Dinner,Egg Curry / Malai Kofta & Roti,Special Dinner,4.5,650,530,541,0.47,288.11,281.55,6.56,2.28
+2025-03-14,Friday,0,Regular,Sunny,Breakfast,Oats Porridge,Continental,2.2,650,389,380,0.22,100.76,81.01,19.75,19.6
+2025-03-14,Friday,0,Regular,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,473,471,0.46,252.08,227.43,24.65,9.78
+2025-03-14,Friday,0,Regular,Sunny,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,458,457,0.35,187.6,159.66,27.94,14.89
+2025-03-15,Saturday,1,Weekend,Sunny,Breakfast,Idli Sambhar,South Indian,4.2,650,255,267,0.3,84.9,84.9,0.0,0.0
+2025-03-15,Saturday,1,Weekend,Sunny,Lunch,South Indian Veg Thali,South Indian Veg,3.8,650,365,372,0.46,188.14,185.47,2.67,1.42
+2025-03-15,Saturday,1,Weekend,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,228,214,0.45,111.15,110.92,0.23,0.21
+2025-03-16,Sunday,1,Weekend,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,254,264,0.25,72.25,68.17,4.08,5.65
+2025-03-16,Sunday,1,Weekend,Sunny,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,314,315,0.48,171.84,170.27,1.57,0.91
+2025-03-16,Sunday,1,Weekend,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,250,239,0.42,123.48,109.17,14.31,11.59
+2025-03-17,Monday,0,Regular,Sunny,Breakfast,Upma & Chutney,South Indian,2.8,650,434,429,0.25,126.5,106.81,19.69,15.57
+2025-03-17,Monday,0,Regular,Sunny,Lunch,Kadhi Pakora & Steamed Rice,North Indian Veg,3.6,650,500,498,0.44,240.68,228.54,12.14,5.04
+2025-03-17,Monday,0,Regular,Sunny,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,576,576,0.45,302.4,297.07,5.33,1.76
+2025-03-18,Tuesday,0,Regular,Cold,Breakfast,Poori Bhaji,North Indian,4.5,650,521,514,0.35,207.9,204.31,3.59,1.73
+2025-03-18,Tuesday,0,Regular,Cold,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,486,484,0.42,238.56,209.57,28.99,12.15
+2025-03-18,Tuesday,0,Regular,Cold,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,554,543,0.42,264.18,253.0,11.18,4.23
+2025-03-19,Wednesday,0,Regular,Sunny,Breakfast,Poha & Jalebi,North Indian,3.9,650,432,424,0.28,132.72,128.48,4.24,3.19
+2025-03-19,Wednesday,0,Regular,Sunny,Lunch,Chole Bhature,North Indian Veg,4.7,650,529,527,0.5,288.5,288.5,0.0,0.0
+2025-03-19,Wednesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,481,477,0.42,238.14,217.9,20.24,8.5
+2025-03-20,Thursday,0,Regular,Sunny,Breakfast,Masala Dosa,South Indian,4.8,650,503,491,0.33,184.8,181.51,3.29,1.78
+2025-03-20,Thursday,0,Regular,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,436,426,0.42,211.26,189.9,21.36,10.11
+2025-03-20,Thursday,0,Regular,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,530,533,0.4,233.2,231.08,2.12,0.91
+2025-03-21,Friday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,414,401,0.28,127.96,121.7,6.26,4.89
+2025-03-21,Friday,0,Regular,Overcast,Lunch,Rajma Chawal,North Indian Veg,4.4,650,489,474,0.45,243.9,243.78,0.12,0.05
+2025-03-21,Friday,0,Regular,Overcast,Dinner,Dal Makhani & Naan,North Indian Veg,4.6,650,481,484,0.45,253.8,240.09,13.71,5.4
+2025-03-22,Saturday,1,Weekend,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,264,270,0.38,112.86,112.86,0.0,0.0
+2025-03-22,Saturday,1,Weekend,Sunny,Lunch,Mix Veg Curry & Dal Rice,Everyday Veg,3.2,650,310,295,0.42,144.9,125.71,19.19,13.24
+2025-03-22,Saturday,1,Weekend,Sunny,Dinner,Bhindi Masala & Phulka,Everyday Veg,3.4,650,253,248,0.4,118.8,107.53,11.27,9.49
+2025-03-23,Sunday,1,Weekend,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,265,251,0.28,85.96,75.27,10.69,12.44
+2025-03-23,Sunday,1,Weekend,Overcast,Lunch,Paneer Butter Masala & Roti,North Indian Veg,4.8,650,433,435,0.48,243.84,236.13,7.71,3.16
+2025-03-23,Sunday,1,Weekend,Overcast,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,269,261,0.42,132.72,121.23,11.49,8.66
+2025-03-24,Monday,0,Regular,Overcast,Breakfast,Poha & Jalebi,North Indian,3.9,650,418,415,0.28,129.64,127.72,1.92,1.48
+2025-03-24,Monday,0,Regular,Overcast,Lunch,Chole Bhature,North Indian Veg,4.7,650,440,440,0.5,255.0,252.15,2.85,1.12
+2025-03-24,Monday,0,Regular,Overcast,Dinner,Khichdi & Kadhi,Light Dinner,2.6,650,485,489,0.35,185.5,173.88,11.62,6.26
+2025-03-25,Tuesday,0,Regular,Sunny,Breakfast,Aloo Paratha,North Indian,4.7,650,491,488,0.38,210.14,210.14,0.0,0.0
+2025-03-25,Tuesday,0,Regular,Sunny,Lunch,Lauki Chana Dal & Roti,Everyday Veg,2.3,650,431,429,0.38,190.0,162.18,27.82,14.64
+2025-03-25,Tuesday,0,Regular,Sunny,Dinner,Veg Pulao & Raita,Rice Special,3.9,650,549,536,0.42,249.9,241.89,8.01,3.21

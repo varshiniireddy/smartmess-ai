@@ -1,0 +1,56 @@
+{
+    "best_model": "Gradient Boosting Regressor",
+    "metrics_comparison": {
+        "Ridge Regression (Baseline)": {
+            "MAE_kg": 4.945,
+            "RMSE_kg": 6.277,
+            "R2_Score": 0.5105
+        },
+        "Random Forest Regressor": {
+            "MAE_kg": 4.138,
+            "RMSE_kg": 5.504,
+            "R2_Score": 0.6236
+        },
+        "Gradient Boosting Regressor": {
+            "MAE_kg": 3.952,
+            "RMSE_kg": 5.376,
+            "R2_Score": 0.6409
+        }
+    },
+    "top_feature_importance": {
+        "dish_popularity_rating": 0.4451,
+        "food_prepared_kg": 0.3513,
+        "estimated_diners": 0.0963,
+        "std_portion_kg": 0.0352,
+        "day_of_week_Monday": 0.0085,
+        "weather_Cold": 0.007,
+        "weather_Sunny": 0.0061,
+        "weather_Rainy": 0.0058,
+        "weather_Overcast": 0.0052,
+        "day_of_week_Friday": 0.0046,
+        "day_of_week_Thursday": 0.0043,
+        "day_of_week_Tuesday": 0.0042,
+        "meal_type_Lunch": 0.0037,
+        "academic_status_Exam": 0.0034,
+        "academic_status_Regular": 0.0033
+    },
+    "training_samples": 1080,
+    "test_samples": 270,
+    "features": {
+        "numerical": [
+            "dish_popularity_rating",
+            "hostel_registered_count",
+            "estimated_diners",
+            "std_portion_kg",
+            "food_prepared_kg",
+            "is_weekend"
+        ],
+        "categorical": [
+            "meal_type",
+            "academic_status",
+            "weather",
+            "day_of_week",
+            "dish_category"
+        ]
+    }
+}
