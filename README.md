@@ -219,9 +219,8 @@ The application includes pre-seeded demo accounts in the SQLite database for ins
 ## 📄 Academic Project Report
 
 This repository includes a complete **B.Tech Micro Project Overview Report** formatted according to standard university submission templates:
-* **Word Document (`.doc`):** [`BTech_Micro_Project_Food_Waste_Prediction.doc`](BTech_Micro_Project_Food_Waste_Prediction.doc)
 * **Markdown Document:** [`BTech_Micro_Project_Report.md`](BTech_Micro_Project_Report.md)
-* **Generate `.docx` Script:** Run `python generate_docx.py` to compile native Word `.docx` output.
+* **Generate `.docx` Script:** Run `python generate_docx.py` to compile native Word `.docx` output if needed.
 
 ---
 

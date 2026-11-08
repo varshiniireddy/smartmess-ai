@@ -39,3 +39,7 @@ desktop.ini
 
 # SQLite databases (optional: uncomment if you don't want to track user DB)
 # data/users.db
+
+# Word Documents
+*.doc
+*.docx
